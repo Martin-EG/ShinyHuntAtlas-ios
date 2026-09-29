@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct DexCard: View {
-    @Binding var pokemon: Pokemon
+    let pokemon: Pokemon
+    @Binding var isCaught: Bool
     let methodTag: String
     
     var body: some View {
@@ -49,31 +50,31 @@ struct DexCard: View {
     private var caughtButton: some View {
         Button {
             withAnimation(.snappy) {
-                pokemon.isCaught.toggle()
+                isCaught.toggle()
             }
         } label: {
             Image(
-                systemName: pokemon.isCaught
+                systemName: isCaught
                     ? "checkmark"
                     : "sparkle"
             )
             .contentTransition(.symbolEffect(.replace))
                 .frame(width: 44, height: 44)
                 .background(
-                    pokemon.isCaught
+                    isCaught
                         ? Theme.gold
                         : Theme.background,
                     in: .rect(cornerRadius: 14)
                 )
         }
-        .sensoryFeedback(.success, trigger: pokemon.isCaught)
+        .sensoryFeedback(.success, trigger: isCaught)
         .foregroundStyle(
-            pokemon.isCaught
+            isCaught
                 ? Theme.navy
                 : Theme.textMuted
         )
         .accessibilityLabel(
-            pokemon.isCaught
+            isCaught
                 ? "Caught"
                 : "Mark as caught")
         .padding(8)
@@ -82,11 +83,9 @@ struct DexCard: View {
 
 #Preview {
     @Previewable @State var gible = Pokemon(dex: 443, name: "Gible", form: nil, comment: nil)
+    @Previewable @State var caught = false
     
-    DexCard(
-        pokemon: $gible,
-        methodTag: "BDSP PokeRadar"
-    )
+    DexCard(pokemon: .samples[3], isCaught: $caught, methodTag: "BDSP PokéRadar")
     .frame(width: 180)
     .padding()
     .background(Theme.background)

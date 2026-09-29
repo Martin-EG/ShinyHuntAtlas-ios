@@ -26,4 +26,6 @@ enum Theme {
     static let tagBackground = Color(hex: 0xFBE7B4)
     static let tagBorder     = Color(hex: 0xF0CE72)
     static let tagText       = Color(hex: 0x6A4A00)
+    static let chipBorder = Color(hex: 0xD9DCE6)
+    static let chipText   = Color(hex: 0x3D4459)
 }
