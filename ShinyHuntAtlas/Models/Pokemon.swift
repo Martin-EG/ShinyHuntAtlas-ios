@@ -5,7 +5,7 @@
 //  Created by Martin Espericueta on 26/09/26.
 //
 
-struct Pokemon: Identifiable {
+struct Pokemon: Identifiable, Hashable {
     let dex: Int
     let name: String
     let form: String?
@@ -33,3 +33,4 @@ extension Pokemon {
         Pokemon(dex: 448, name: "Lucario",  form: nil, comment: nil),
     ]
 }
+

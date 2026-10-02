@@ -11,8 +11,13 @@ struct DexView: View {
     @State private var caught: Set<Pokemon.ID> = []
     @State private var query = ""
     @State private var onlyUncaught = false
+    @State private var path: [Pokemon] = []
     
     private let pokedex = Pokemon.samples
+    
+    private var uncaughtPokemon: [Pokemon] {
+       pokedex.filter { !caught.contains($0.id) }
+   }
     
     private var results: [Pokemon] {
         pokedex.filter {
@@ -27,7 +32,7 @@ struct DexView: View {
     }
     
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
                     ProgressView(
@@ -50,18 +55,34 @@ struct DexView: View {
                         spacing: 12
                     ) {
                         ForEach(results) { mon in
-                            DexCard(
-                                pokemon: mon,
-                                isCaught: caughtBinding(for: mon),
-                                methodTag: "BDSP Pokeradar"
-                            )
+                            NavigationLink(value: mon) {
+                                DexCard(
+                                    pokemon: mon,
+                                    isCaught: caughtBinding(for: mon),
+                                    methodTag: "BDSP Pokeradar"
+                                )
+                            }
+                            .buttonStyle(.plain)
                         }
                     }
                 }
                 .padding(.horizontal, 20)
             }
+            .toolbar {
+                Button("Pick my next hunt", systemImage: "dice") {
+                    goToRandomPokemonView()
+                }
+                .disabled(
+                    uncaughtPokemon.isEmpty
+                )
+            }
             .background(Theme.background)
             .navigationTitle("Dex")
+            .navigationDestination(for: Pokemon.self) { mon in
+                PokemonDetailView(
+                    pokemon: mon,
+                    isCaught: caughtBinding(for: mon))
+            }
             .searchable(text: $query, prompt: "Search name or dex number")
         }
     }
@@ -78,6 +99,12 @@ struct DexView: View {
                 }
             }
         )
+    }
+    
+    private func goToRandomPokemonView() {
+        guard let randomPokemon = uncaughtPokemon.randomElement() else { return }
+        
+        path.append(randomPokemon)
     }
 }
 
