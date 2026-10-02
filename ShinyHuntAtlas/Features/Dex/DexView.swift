@@ -13,8 +13,10 @@ struct DexView: View {
     @State private var onlyUncaught = false
     @State private var path: [Pokemon] = []
     
+    private let engine = HuntEngine(
+        order: HuntMethod.allCases, enabled: Set(HuntMethod.allCases)
+    )
     private let pokedex = Pokemon.samples
-    
     private var uncaughtPokemon: [Pokemon] {
        pokedex.filter { !caught.contains($0.id) }
    }
@@ -59,7 +61,7 @@ struct DexView: View {
                                 DexCard(
                                     pokemon: mon,
                                     isCaught: caughtBinding(for: mon),
-                                    methodTag: "BDSP Pokeradar"
+                                    methodTag: engine.best(for: mon)?.method.title ?? "No method"
                                 )
                             }
                             .buttonStyle(.plain)

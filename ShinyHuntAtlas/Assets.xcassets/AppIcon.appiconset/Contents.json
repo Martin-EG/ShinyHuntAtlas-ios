@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "AppIconShinyHuntAtlasLight.png",
+      "filename" : "ShinyHuntAtlasLightIcon.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -13,7 +13,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "AppIconShinyHuntAtlasDark.png",
+      "filename" : "ShinyHuntAtlasDarkIcon.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"

@@ -10,6 +10,7 @@ struct Pokemon: Identifiable, Hashable {
     let name: String
     let form: String?
     let comment: String?
+    var methods: [HuntMethod: String] = [:]
     
     var id: String { "\(dex)-\(form ?? "base")" }
     var displayName: String {
@@ -26,9 +27,9 @@ extension Pokemon {
         Pokemon(dex: 387, name: "Turtwig",  form: nil, comment: nil),
         Pokemon(dex: 390, name: "Chimchar", form: nil, comment: nil),
         Pokemon(dex: 393, name: "Piplup",   form: nil, comment: nil),
-        Pokemon(dex: 443, name: "Gible",    form: nil, comment: nil),
+        Pokemon(dex: 443, name: "Gible",    form: nil, comment: nil, methods: [.bdsp: "BDSP", .sv: "SV"]),
         Pokemon(dex: 444, name: "Gabite",   form: nil, comment: nil),
-        Pokemon(dex: 445, name: "Garchomp", form: nil, comment: nil),
+        Pokemon(dex: 445, name: "Garchomp", form: nil, comment: nil, methods: [.bdsp: "BDSP"]),
         Pokemon(dex: 447, name: "Riolu",    form: nil, comment: nil),
         Pokemon(dex: 448, name: "Lucario",  form: nil, comment: nil),
     ]
