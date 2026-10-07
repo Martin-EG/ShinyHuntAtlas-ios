@@ -8,17 +8,14 @@
 import SwiftUI
 
 struct DexView: View {
-    @State private var caught: Set<Pokemon.ID> = []
+    @Environment(HuntStore.self) private var store
     @State private var query = ""
     @State private var onlyUncaught = false
     @State private var path: [Pokemon] = []
     
-    private let engine = HuntEngine(
-        order: HuntMethod.allCases, enabled: Set(HuntMethod.allCases)
-    )
     private let pokedex = Pokemon.samples
     private var uncaughtPokemon: [Pokemon] {
-       pokedex.filter { !caught.contains($0.id) }
+        pokedex.filter { !store.caught.contains($0.id) }
    }
     
     private var results: [Pokemon] {
@@ -27,7 +24,7 @@ struct DexView: View {
             let matchesQuery = query.isEmpty
                 || mon.displayName.localizedStandardContains(query)
                 || String(mon.dex).contains(query)
-            let matchesChip = !onlyUncaught || !caught.contains(mon.id)
+            let matchesChip = !onlyUncaught || !store.caught.contains(mon.id)
             
             return matchesQuery && matchesChip
         }
@@ -38,8 +35,8 @@ struct DexView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
                     ProgressView(
-                        "Living dex \(caught.count) / \(pokedex.count)",
-                        value: Double(caught.count), total: Double(pokedex.count)
+                        "Living dex \(store.caught.count) / \(pokedex.count)",
+                        value: Double(store.caught.count), total: Double(pokedex.count)
                     )
                         .tint(Theme.gold)
                     
@@ -61,7 +58,7 @@ struct DexView: View {
                                 DexCard(
                                     pokemon: mon,
                                     isCaught: caughtBinding(for: mon),
-                                    methodTag: engine.best(for: mon)?.method.title ?? "No method"
+                                    methodTag: store.engine.best(for: mon)?.method.title ?? "No method"
                                 )
                             }
                             .buttonStyle(.plain)
@@ -92,12 +89,12 @@ struct DexView: View {
     
     private func caughtBinding(for mon: Pokemon) -> Binding<Bool> {
         Binding(
-            get: { caught.contains(mon.id) },
+            get: { store.caught.contains(mon.id) },
             set: { isOn in
                 if isOn {
-                    caught.insert(mon.id)
+                    store.caught.insert(mon.id)
                 } else {
-                    caught.remove(mon.id)
+                    store.caught.remove(mon.id)
                 }
             }
         )
@@ -110,6 +107,5 @@ struct DexView: View {
     }
 }
 
-#Preview {
-    DexView()
+#Preview { DexView().environment(HuntStore())
 }

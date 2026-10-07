@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ShinyHuntAtlasApp: App {
+    @State private var store = HuntStore()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
+                .environment(store)
         }
     }
 }
