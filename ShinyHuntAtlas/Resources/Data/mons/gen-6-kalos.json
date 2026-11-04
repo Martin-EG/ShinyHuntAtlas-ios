@@ -1,0 +1,1015 @@
+[
+  {
+    "dexNumber": 650,
+    "slug": "chespin",
+    "name": "Chespin",
+    "form": null,
+    "note": null,
+    "sprite": "0650",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 651,
+    "slug": "quilladin",
+    "name": "Quilladin",
+    "form": null,
+    "note": null,
+    "sprite": "0651",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV*",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 652,
+    "slug": "chesnaught",
+    "name": "Chesnaught",
+    "form": null,
+    "note": null,
+    "sprite": "0652",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV*",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 653,
+    "slug": "fennekin",
+    "name": "Fennekin",
+    "form": null,
+    "note": null,
+    "sprite": "0653",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 654,
+    "slug": "braixen",
+    "name": "Braixen",
+    "form": null,
+    "note": null,
+    "sprite": "0654",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV*",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 655,
+    "slug": "delphox",
+    "name": "Delphox",
+    "form": null,
+    "note": null,
+    "sprite": "0655",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV*",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 656,
+    "slug": "froakie",
+    "name": "Froakie",
+    "form": null,
+    "note": null,
+    "sprite": "0656",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 657,
+    "slug": "frogadier",
+    "name": "Frogadier",
+    "form": null,
+    "note": null,
+    "sprite": "0657",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV*",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 658,
+    "slug": "greninja",
+    "name": "Greninja",
+    "form": null,
+    "note": null,
+    "sprite": "0658",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV*",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 659,
+    "slug": "bunnelby",
+    "name": "Bunnelby",
+    "form": null,
+    "note": null,
+    "sprite": "0659",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 660,
+    "slug": "diggersby",
+    "name": "Diggersby",
+    "form": null,
+    "note": null,
+    "sprite": "0660",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-ss": "SS",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 661,
+    "slug": "fletchling",
+    "name": "Fletchling",
+    "form": null,
+    "note": null,
+    "sprite": "0661",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 662,
+    "slug": "fletchinder",
+    "name": "Fletchinder",
+    "form": null,
+    "note": null,
+    "sprite": "0662",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 663,
+    "slug": "talonflame",
+    "name": "Talonflame",
+    "form": null,
+    "note": null,
+    "sprite": "0663",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-ss": "SS",
+      "pkm-xy-safari": "EFS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 664,
+    "slug": "scatterbug",
+    "name": "Scatterbug",
+    "form": null,
+    "note": null,
+    "sprite": "0664",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 665,
+    "slug": "spewpa",
+    "name": "Spewpa",
+    "form": null,
+    "note": null,
+    "sprite": "0665",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 666,
+    "slug": "vivillon",
+    "name": "Vivillon",
+    "form": null,
+    "note": null,
+    "sprite": "0666",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 667,
+    "slug": "litleo",
+    "name": "Litleo",
+    "form": null,
+    "note": null,
+    "sprite": "0667",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 668,
+    "slug": "pyroar",
+    "name": "Pyroar",
+    "form": null,
+    "note": null,
+    "sprite": "0668",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 669,
+    "slug": "flabébé",
+    "name": "Flabébé",
+    "form": null,
+    "note": null,
+    "sprite": "0669",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 670,
+    "slug": "floette",
+    "name": "Floette",
+    "form": null,
+    "note": null,
+    "sprite": "0670",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 671,
+    "slug": "florges",
+    "name": "Florges",
+    "form": null,
+    "note": null,
+    "sprite": "0671",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-xy-safari": "EFS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 672,
+    "slug": "skiddo",
+    "name": "Skiddo",
+    "form": null,
+    "note": null,
+    "sprite": "0672",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 673,
+    "slug": "gogoat",
+    "name": "Gogoat",
+    "form": null,
+    "note": null,
+    "sprite": "0673",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 674,
+    "slug": "pancham",
+    "name": "Pancham",
+    "form": null,
+    "note": null,
+    "sprite": "0674",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-smusum-sos": "SOS",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 675,
+    "slug": "pangoro",
+    "name": "Pangoro",
+    "form": null,
+    "note": null,
+    "sprite": "0675",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-ss": "SS",
+      "pkm-xy-safari": "EFS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 676,
+    "slug": "furfrou",
+    "name": "Furfrou",
+    "form": null,
+    "note": null,
+    "sprite": "0676",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-smusum-sos": "SOS",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 677,
+    "slug": "espurr",
+    "name": "Espurr",
+    "form": null,
+    "note": null,
+    "sprite": "0677",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV*",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 678,
+    "slug": "meowstic",
+    "name": "Meowstic",
+    "form": null,
+    "note": null,
+    "sprite": "0678",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV*",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 679,
+    "slug": "honedge",
+    "name": "Honedge",
+    "form": null,
+    "note": null,
+    "sprite": "0679",
+    "methods": {
+      "pkm-lza": "ZA"
+    }
+  },
+  {
+    "dexNumber": 680,
+    "slug": "doublade",
+    "name": "Doublade",
+    "form": null,
+    "note": null,
+    "sprite": "0680",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-ss": "SS"
+    }
+  },
+  {
+    "dexNumber": 681,
+    "slug": "aegislash",
+    "name": "Aegislash",
+    "form": null,
+    "note": null,
+    "sprite": "0681",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-ss": "ESS"
+    }
+  },
+  {
+    "dexNumber": 682,
+    "slug": "spritzee",
+    "name": "Spritzee",
+    "form": null,
+    "note": null,
+    "sprite": "0682",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 683,
+    "slug": "aromatisse",
+    "name": "Aromatisse",
+    "form": null,
+    "note": null,
+    "sprite": "0683",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-xy-safari": "EFS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 684,
+    "slug": "swirlix",
+    "name": "Swirlix",
+    "form": null,
+    "note": null,
+    "sprite": "0684",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 685,
+    "slug": "slurpuff",
+    "name": "Slurpuff",
+    "form": null,
+    "note": null,
+    "sprite": "0685",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-xy-safari": "EFS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 686,
+    "slug": "inkay",
+    "name": "Inkay",
+    "form": null,
+    "note": null,
+    "sprite": "0686",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV*",
+      "pkm-smusum-sos": "SOS",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 687,
+    "slug": "malamar",
+    "name": "Malamar",
+    "form": null,
+    "note": null,
+    "sprite": "0687",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV*",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-ss": "SS",
+      "pkm-xy-safari": "EFS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 688,
+    "slug": "binacle",
+    "name": "Binacle",
+    "form": null,
+    "note": null,
+    "sprite": "0688",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-oras-dexnav": "DN"
+    }
+  },
+  {
+    "dexNumber": 689,
+    "slug": "barbaracle",
+    "name": "Barbaracle",
+    "form": null,
+    "note": null,
+    "sprite": "0689",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-usum-wormhole": "U-W",
+      "pkm-ss": "SS",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 690,
+    "slug": "skrelp",
+    "name": "Skrelp",
+    "form": null,
+    "note": null,
+    "sprite": "0690",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-xyoras-fishing": "CF",
+      "pkm-oras-dexnav": "DN"
+    }
+  },
+  {
+    "dexNumber": 691,
+    "slug": "dragalge",
+    "name": "Dragalge",
+    "form": null,
+    "note": null,
+    "sprite": "0691",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS",
+      "pkm-xyoras-fishing": "CF",
+      "pkm-oras-dexnav": "EDN"
+    }
+  },
+  {
+    "dexNumber": 692,
+    "slug": "clauncher",
+    "name": "Clauncher",
+    "form": null,
+    "note": null,
+    "sprite": "0692",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-xyoras-fishing": "CF",
+      "pkm-oras-dexnav": "DN"
+    }
+  },
+  {
+    "dexNumber": 693,
+    "slug": "clawitzer",
+    "name": "Clawitzer",
+    "form": null,
+    "note": null,
+    "sprite": "0693",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-xyoras-fishing": "CF",
+      "pkm-oras-dexnav": "EDN"
+    }
+  },
+  {
+    "dexNumber": 694,
+    "slug": "helioptile",
+    "name": "Helioptile",
+    "form": null,
+    "note": null,
+    "sprite": "0694",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 695,
+    "slug": "heliolisk",
+    "name": "Heliolisk",
+    "form": null,
+    "note": null,
+    "sprite": "0695",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-usum-wormhole": "U-W",
+      "pkm-ss": "SS",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 696,
+    "slug": "tyrunt",
+    "name": "Tyrunt",
+    "form": null,
+    "note": null,
+    "sprite": "0696",
+    "methods": {
+      "pkm-lza": "ZA"
+    }
+  },
+  {
+    "dexNumber": 697,
+    "slug": "tyrantrum",
+    "name": "Tyrantrum",
+    "form": null,
+    "note": null,
+    "sprite": "0697",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-ss": "SS"
+    }
+  },
+  {
+    "dexNumber": 698,
+    "slug": "amaura",
+    "name": "Amaura",
+    "form": null,
+    "note": null,
+    "sprite": "0698",
+    "methods": {
+      "pkm-lza": "ZA"
+    }
+  },
+  {
+    "dexNumber": 699,
+    "slug": "aurorus",
+    "name": "Aurorus",
+    "form": null,
+    "note": null,
+    "sprite": "0699",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-ss": "SS"
+    }
+  },
+  {
+    "dexNumber": 700,
+    "slug": "sylveon",
+    "name": "Sylveon",
+    "form": null,
+    "note": null,
+    "sprite": "0700",
+    "methods": {
+      "pkm-pla": "EPLA",
+      "pkm-lza": "ZA",
+      "pkm-lgpe": "ELG",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 701,
+    "slug": "hawlucha",
+    "name": "Hawlucha",
+    "form": null,
+    "note": null,
+    "sprite": "0701",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS",
+      "pkm-ss": "SS",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 702,
+    "slug": "dedenne",
+    "name": "Dedenne",
+    "form": null,
+    "note": null,
+    "sprite": "0702",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS",
+      "pkm-ss": "SS",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 703,
+    "slug": "carbink",
+    "name": "Carbink",
+    "form": null,
+    "note": null,
+    "sprite": "0703",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV*",
+      "pkm-smusum-sos": "SOS",
+      "pkm-xyoras-horde": "H"
+    }
+  },
+  {
+    "dexNumber": 704,
+    "slug": "goomy",
+    "name": "Goomy",
+    "form": null,
+    "note": null,
+    "sprite": "0704",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 705,
+    "slug": "sliggoo",
+    "name": "Sliggoo",
+    "form": null,
+    "note": null,
+    "sprite": "0705",
+    "methods": {
+      "pkm-pla": "EPLA",
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 705,
+    "slug": "hisuian-sliggoo-hisui",
+    "name": "Hisuian Sliggoo",
+    "form": "Hisui",
+    "note": null,
+    "sprite": "0705-1",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA*",
+      "pkm-sv": "ESV",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 706,
+    "slug": "goodra",
+    "name": "Goodra",
+    "form": null,
+    "note": null,
+    "sprite": "0706",
+    "methods": {
+      "pkm-pla": "EPLA",
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-xy-safari": "EFS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 706,
+    "slug": "hisuian-goodra-hisui",
+    "name": "Hisuian Goodra",
+    "form": "Hisui",
+    "note": null,
+    "sprite": "0706-1",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA*",
+      "pkm-sv": "ESV",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 707,
+    "slug": "klefki",
+    "name": "Klefki",
+    "form": null,
+    "note": null,
+    "sprite": "0707",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS",
+      "pkm-xyoras-horde": "H",
+      "pkm-ss": "SS",
+      "pkm-oras-dexnav": "DN",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 708,
+    "slug": "phantump",
+    "name": "Phantump",
+    "form": null,
+    "note": null,
+    "sprite": "0708",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV*",
+      "pkm-smusum-sos": "SOS",
+      "pkm-oras-dexnav": "DN",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 709,
+    "slug": "trevenant",
+    "name": "Trevenant",
+    "form": null,
+    "note": null,
+    "sprite": "0709",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV*",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-xyoras-horde": "H",
+      "pkm-ss": "SS",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 710,
+    "slug": "pumpkaboo",
+    "name": "Pumpkaboo",
+    "form": null,
+    "note": null,
+    "sprite": "0710",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 711,
+    "slug": "gourgeist",
+    "name": "Gourgeist",
+    "form": null,
+    "note": null,
+    "sprite": "0711",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-ss": "SS",
+      "pkm-xy-safari": "EFS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 712,
+    "slug": "bergmite",
+    "name": "Bergmite",
+    "form": null,
+    "note": null,
+    "sprite": "0712",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 713,
+    "slug": "avalugg",
+    "name": "Avalugg",
+    "form": null,
+    "note": null,
+    "sprite": "0713",
+    "methods": {
+      "pkm-pla": "EPLA",
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 713,
+    "slug": "hisuian-avalugg-hisui",
+    "name": "Hisuian Avalugg",
+    "form": "Hisui",
+    "note": null,
+    "sprite": "0713-1",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA*",
+      "pkm-sv": "ESV",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 714,
+    "slug": "noibat",
+    "name": "Noibat",
+    "form": null,
+    "note": null,
+    "sprite": "0714",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 715,
+    "slug": "noivern",
+    "name": "Noivern",
+    "form": null,
+    "note": null,
+    "sprite": "0715",
+    "methods": {
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 716,
+    "slug": "xerneas",
+    "name": "Xerneas",
+    "form": null,
+    "note": null,
+    "sprite": "0716",
+    "methods": {
+      "pkm-usum-wormhole": "$U-W",
+      "pkm-ss": "SS"
+    }
+  },
+  {
+    "dexNumber": 717,
+    "slug": "yveltal",
+    "name": "Yveltal",
+    "form": null,
+    "note": null,
+    "sprite": "0717",
+    "methods": {
+      "pkm-usum-wormhole": "$U-W",
+      "pkm-ss": "SS"
+    }
+  },
+  {
+    "dexNumber": 718,
+    "slug": "zygarde",
+    "name": "Zygarde",
+    "form": null,
+    "note": null,
+    "sprite": "0718",
+    "methods": {
+      "pkm-ss": "SS"
+    }
+  },
+  {
+    "dexNumber": 719,
+    "slug": "diancie",
+    "name": "Diancie",
+    "form": null,
+    "note": null,
+    "sprite": "0719",
+    "methods": {}
+  },
+  {
+    "dexNumber": 720,
+    "slug": "hoopa",
+    "name": "Hoopa",
+    "form": null,
+    "note": "pray for better times",
+    "sprite": "0720",
+    "methods": {}
+  },
+  {
+    "dexNumber": 721,
+    "slug": "volcanion",
+    "name": "Volcanion",
+    "form": null,
+    "note": "Pokemon HOME Z-A + DLC Dex completion reward",
+    "sprite": "0721",
+    "methods": {}
+  }
+]

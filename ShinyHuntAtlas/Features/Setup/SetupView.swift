@@ -10,7 +10,7 @@ import SwiftUI
 struct SetupView: View {
     @Environment(HuntStore.self) private var store
     @State private var isShowingConfirmation = false
-    
+
     var body: some View {
         NavigationStack {
             List {
@@ -18,25 +18,23 @@ struct SetupView: View {
                     ForEach(store.order, id: \.self) { method in
                         let isOn = store.enabled.contains(method)
                         let rank = (store.order.firstIndex(of: method) ?? 0) + 1
-                        
+
                         Toggle(isOn: enabledBinding(for: method)) {
                             HStack(alignment: .center, spacing: 12) {
                                 Text("\(rank)")
-                                    .font(.subheadline.monospaced()
-                                    .weight(.semibold))
+                                    .font(.subheadline.monospaced().weight(.semibold))
                                     .foregroundStyle(Theme.textMuted)
                                     .frame(width: 24, alignment: .trailing)
-                                
+
                                 VStack(alignment: .leading, spacing: 2) {
-                                    Text(method.title)
+                                    Text(store.shortName(for: method))
                                         .font(.headline)
-                                    Text(isOn ? method.rawValue.uppercased() : "Not owned")
+                                    Text(isOn ? store.consoleName(for: method) : "Not owned")
                                         .font(.caption.monospaced())
                                         .foregroundStyle(.secondary)
                                 }
                             }
                             .opacity(isOn ? 1 : 0.5)
-
                         }
                     }
                     .onMove { from, to in
@@ -59,12 +57,12 @@ struct SetupView: View {
                         isPresented: $isShowingConfirmation,
                         titleVisibility: .visible
                     ) {
-                        Button("Yes, reset", role: .destructive) {
-                            resetSetup()
+                        Button("Reset Order and Games", role: .destructive) {
+                            store.resetSetup()
                         }
                         Button("Cancel", role: .cancel) { }
                     } message: {
-                        Text("Reset Order and Games")
+                        Text("Your method order and owned games go back to the recommended defaults.")
                     }
                 }
                 ToolbarItem(placement: .topBarTrailing) {
@@ -73,7 +71,7 @@ struct SetupView: View {
             }
         }
     }
-    
+
     private func enabledBinding(for method: HuntMethod) -> Binding<Bool> {
         Binding(
             get: { store.enabled.contains(method) },
@@ -82,11 +80,6 @@ struct SetupView: View {
             }
         )
     }
-    
-    private func resetSetup() {
-        store.order = HuntMethod.allCases
-        store.enabled = Set(HuntMethod.allCases)
-    }
 }
 
-#Preview { SetupView().environment(HuntStore()) }
+#Preview { SetupView().environment(HuntStore.preview()) }

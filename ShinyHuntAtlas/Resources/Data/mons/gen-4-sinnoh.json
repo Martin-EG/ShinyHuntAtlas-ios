@@ -1,0 +1,1501 @@
+[
+  {
+    "dexNumber": 387,
+    "slug": "turtwig",
+    "name": "Turtwig",
+    "form": null,
+    "note": null,
+    "sprite": "0387",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 388,
+    "slug": "grotle",
+    "name": "Grotle",
+    "form": null,
+    "note": null,
+    "sprite": "0388",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 389,
+    "slug": "torterra",
+    "name": "Torterra",
+    "form": null,
+    "note": null,
+    "sprite": "0389",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 390,
+    "slug": "chimchar",
+    "name": "Chimchar",
+    "form": null,
+    "note": null,
+    "sprite": "0390",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 391,
+    "slug": "monferno",
+    "name": "Monferno",
+    "form": null,
+    "note": null,
+    "sprite": "0391",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 392,
+    "slug": "infernape",
+    "name": "Infernape",
+    "form": null,
+    "note": null,
+    "sprite": "0392",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 393,
+    "slug": "piplup",
+    "name": "Piplup",
+    "form": null,
+    "note": null,
+    "sprite": "0393",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 394,
+    "slug": "prinplup",
+    "name": "Prinplup",
+    "form": null,
+    "note": null,
+    "sprite": "0394",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 395,
+    "slug": "empoleon",
+    "name": "Empoleon",
+    "form": null,
+    "note": null,
+    "sprite": "0395",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 396,
+    "slug": "starly",
+    "name": "Starly",
+    "form": null,
+    "note": null,
+    "sprite": "0396",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV",
+      "pkm-xyoras-horde": "H",
+      "pkm-bdsp-radar": "DPR"
+    }
+  },
+  {
+    "dexNumber": 397,
+    "slug": "staravia",
+    "name": "Staravia",
+    "form": null,
+    "note": null,
+    "sprite": "0397",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV",
+      "pkm-xyoras-horde": "EH",
+      "pkm-bdsp-radar": "DPR"
+    }
+  },
+  {
+    "dexNumber": 398,
+    "slug": "staraptor",
+    "name": "Staraptor",
+    "form": null,
+    "note": null,
+    "sprite": "0398",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV",
+      "pkm-xyoras-horde": "EH",
+      "pkm-bdsp-radar": "EDPR"
+    }
+  },
+  {
+    "dexNumber": 399,
+    "slug": "bidoof",
+    "name": "Bidoof",
+    "form": null,
+    "note": null,
+    "sprite": "0399",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 400,
+    "slug": "bibarel",
+    "name": "Bibarel",
+    "form": null,
+    "note": null,
+    "sprite": "0400",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 401,
+    "slug": "kricketot",
+    "name": "Kricketot",
+    "form": null,
+    "note": null,
+    "sprite": "0401",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-bdsp-radar": "DPR"
+    }
+  },
+  {
+    "dexNumber": 402,
+    "slug": "kricketune",
+    "name": "Kricketune",
+    "form": null,
+    "note": null,
+    "sprite": "0402",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-oras-dexnav": "DN"
+    }
+  },
+  {
+    "dexNumber": 403,
+    "slug": "shinx",
+    "name": "Shinx",
+    "form": null,
+    "note": null,
+    "sprite": "0403",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-bdsp-radar": "DPR"
+    }
+  },
+  {
+    "dexNumber": 404,
+    "slug": "luxio",
+    "name": "Luxio",
+    "form": null,
+    "note": null,
+    "sprite": "0404",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-oras-dexnav": "DN",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 405,
+    "slug": "luxray",
+    "name": "Luxray",
+    "form": null,
+    "note": null,
+    "sprite": "0405",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-ss": "SS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 406,
+    "slug": "budew",
+    "name": "Budew",
+    "form": null,
+    "note": null,
+    "sprite": "0406",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 407,
+    "slug": "roserade",
+    "name": "Roserade",
+    "form": null,
+    "note": null,
+    "sprite": "0407",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-xyoras-horde": "EH",
+      "pkm-ss": "ESS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 408,
+    "slug": "cranidos",
+    "name": "Cranidos",
+    "form": null,
+    "note": null,
+    "sprite": "0408",
+    "methods": {
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 409,
+    "slug": "rampardos",
+    "name": "Rampardos",
+    "form": null,
+    "note": null,
+    "sprite": "0409",
+    "methods": {
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 410,
+    "slug": "shieldon",
+    "name": "Shieldon",
+    "form": null,
+    "note": null,
+    "sprite": "0410",
+    "methods": {
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 411,
+    "slug": "bastiodon",
+    "name": "Bastiodon",
+    "form": null,
+    "note": null,
+    "sprite": "0411",
+    "methods": {
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 412,
+    "slug": "burmy",
+    "name": "Burmy",
+    "form": null,
+    "note": "CAN be caught as a regular encounter in PLA (nearly every shaking tree) but a slightly more tedious hunt as can't be in outbreaks",
+    "sprite": "0412",
+    "methods": {}
+  },
+  {
+    "dexNumber": 413,
+    "slug": "wormadam",
+    "name": "Wormadam",
+    "form": null,
+    "note": "same as Burmy (evolve)",
+    "sprite": "0413",
+    "methods": {}
+  },
+  {
+    "dexNumber": 414,
+    "slug": "mothim",
+    "name": "Mothim",
+    "form": null,
+    "note": "same as Burmy (evolve)",
+    "sprite": "0414",
+    "methods": {}
+  },
+  {
+    "dexNumber": 415,
+    "slug": "combee",
+    "name": "Combee",
+    "form": null,
+    "note": null,
+    "sprite": "0415",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 416,
+    "slug": "vespiquen",
+    "name": "Vespiquen",
+    "form": null,
+    "note": null,
+    "sprite": "0416",
+    "methods": {
+      "pkm-pla": "EPLA",
+      "pkm-sv": "SV",
+      "pkm-ss": "SS",
+      "pkm-xy-safari": "EFS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 417,
+    "slug": "pachirisu",
+    "name": "Pachirisu",
+    "form": null,
+    "note": null,
+    "sprite": "0417",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 418,
+    "slug": "buizel",
+    "name": "Buizel",
+    "form": null,
+    "note": null,
+    "sprite": "0418",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-bdsp-radar": "DPR"
+    }
+  },
+  {
+    "dexNumber": 419,
+    "slug": "floatzel",
+    "name": "Floatzel",
+    "form": null,
+    "note": null,
+    "sprite": "0419",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-usum-wormhole": "U-W",
+      "pkm-xyoras-horde": "H",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 420,
+    "slug": "cherubi",
+    "name": "Cherubi",
+    "form": null,
+    "note": null,
+    "sprite": "0420",
+    "methods": {
+      "pkm-pla": "PLA"
+    }
+  },
+  {
+    "dexNumber": 421,
+    "slug": "cherrim",
+    "name": "Cherrim",
+    "form": null,
+    "note": null,
+    "sprite": "0421",
+    "methods": {
+      "pkm-pla": "EPLA",
+      "pkm-ss": "SS",
+      "pkm-oras-dexnav": "DN"
+    }
+  },
+  {
+    "dexNumber": 422,
+    "slug": "shellos",
+    "name": "Shellos",
+    "form": null,
+    "note": null,
+    "sprite": "0422",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-oras-dexnav": "DN"
+    }
+  },
+  {
+    "dexNumber": 423,
+    "slug": "gastrodon",
+    "name": "Gastrodon",
+    "form": null,
+    "note": null,
+    "sprite": "0423",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS",
+      "pkm-ss": "SS",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 424,
+    "slug": "ambipom",
+    "name": "Ambipom",
+    "form": null,
+    "note": null,
+    "sprite": "0424",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV*",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 425,
+    "slug": "drifloon",
+    "name": "Drifloon",
+    "form": null,
+    "note": null,
+    "sprite": "0425",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS"
+    }
+  },
+  {
+    "dexNumber": 426,
+    "slug": "drifblim",
+    "name": "Drifblim",
+    "form": null,
+    "note": null,
+    "sprite": "0426",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-ss": "SS",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 427,
+    "slug": "buneary",
+    "name": "Buneary",
+    "form": null,
+    "note": null,
+    "sprite": "0427",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-smusum-sos": "SOS",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-oras-dexnav": "DN"
+    }
+  },
+  {
+    "dexNumber": 428,
+    "slug": "lopunny",
+    "name": "Lopunny",
+    "form": null,
+    "note": null,
+    "sprite": "0428",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-smusum-sos": "SOS",
+      "pkm-ss": "SS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-oras-dexnav": "EDN"
+    }
+  },
+  {
+    "dexNumber": 429,
+    "slug": "mismagius",
+    "name": "Mismagius",
+    "form": null,
+    "note": null,
+    "sprite": "0429",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-oras-dexnav": "EDN"
+    }
+  },
+  {
+    "dexNumber": 430,
+    "slug": "honchkrow",
+    "name": "Honchkrow",
+    "form": null,
+    "note": null,
+    "sprite": "0430",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-xyoras-horde": "EH",
+      "pkm-bdsp-radar": "EDPR"
+    }
+  },
+  {
+    "dexNumber": 431,
+    "slug": "glameow",
+    "name": "Glameow",
+    "form": null,
+    "note": null,
+    "sprite": "0431",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-oras-dexnav": "DN"
+    }
+  },
+  {
+    "dexNumber": 432,
+    "slug": "purugly",
+    "name": "Purugly",
+    "form": null,
+    "note": null,
+    "sprite": "0432",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-oras-dexnav": "DN"
+    }
+  },
+  {
+    "dexNumber": 433,
+    "slug": "chingling",
+    "name": "Chingling",
+    "form": null,
+    "note": null,
+    "sprite": "0433",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV*",
+      "pkm-bdsp-radar": "DPR"
+    }
+  },
+  {
+    "dexNumber": 434,
+    "slug": "stunky",
+    "name": "Stunky",
+    "form": null,
+    "note": null,
+    "sprite": "0434",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-xyoras-horde": "H",
+      "pkm-bdsp-radar": "DPR"
+    }
+  },
+  {
+    "dexNumber": 435,
+    "slug": "skuntank",
+    "name": "Skuntank",
+    "form": null,
+    "note": null,
+    "sprite": "0435",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-xyoras-horde": "EH",
+      "pkm-ss": "SS",
+      "pkm-bdsp-radar": "DPR"
+    }
+  },
+  {
+    "dexNumber": 436,
+    "slug": "bronzor",
+    "name": "Bronzor",
+    "form": null,
+    "note": null,
+    "sprite": "0436",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-oras-dexnav": "DN"
+    }
+  },
+  {
+    "dexNumber": 437,
+    "slug": "bronzong",
+    "name": "Bronzong",
+    "form": null,
+    "note": null,
+    "sprite": "0437",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-ss": "SS",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 438,
+    "slug": "bonsly",
+    "name": "Bonsly",
+    "form": null,
+    "note": null,
+    "sprite": "0438",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS",
+      "pkm-bdsp-radar": "DPR"
+    }
+  },
+  {
+    "dexNumber": 439,
+    "slug": "mime-jr",
+    "name": "Mime Jr.",
+    "form": null,
+    "note": null,
+    "sprite": "0439",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA*",
+      "pkm-smusum-sos": "SOS",
+      "pkm-xyoras-horde": "H",
+      "pkm-bdsp-radar": "DPR"
+    }
+  },
+  {
+    "dexNumber": 440,
+    "slug": "happiny",
+    "name": "Happiny",
+    "form": null,
+    "note": null,
+    "sprite": "0440",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-oras-dexnav": "DN"
+    }
+  },
+  {
+    "dexNumber": 441,
+    "slug": "chatot",
+    "name": "Chatot",
+    "form": null,
+    "note": null,
+    "sprite": "0441",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-oras-dexnav": "DN",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 442,
+    "slug": "spiritomb",
+    "name": "Spiritomb",
+    "form": null,
+    "note": null,
+    "sprite": "0442",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 443,
+    "slug": "gible",
+    "name": "Gible",
+    "form": null,
+    "note": null,
+    "sprite": "0443",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-oras-dexnav": "DN"
+    }
+  },
+  {
+    "dexNumber": 444,
+    "slug": "gabite",
+    "name": "Gabite",
+    "form": null,
+    "note": null,
+    "sprite": "0444",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 445,
+    "slug": "garchomp",
+    "name": "Garchomp",
+    "form": null,
+    "note": null,
+    "sprite": "0445",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 446,
+    "slug": "munchlax",
+    "name": "Munchlax",
+    "form": null,
+    "note": null,
+    "sprite": "0446",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV*",
+      "pkm-smusum-sos": "SOS",
+      "pkm-ss": "SS"
+    }
+  },
+  {
+    "dexNumber": 447,
+    "slug": "riolu",
+    "name": "Riolu",
+    "form": null,
+    "note": null,
+    "sprite": "0447",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 448,
+    "slug": "lucario",
+    "name": "Lucario",
+    "form": null,
+    "note": null,
+    "sprite": "0448",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-xy-safari": "EFS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 449,
+    "slug": "hippopotas",
+    "name": "Hippopotas",
+    "form": null,
+    "note": null,
+    "sprite": "0449",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 450,
+    "slug": "hippowdon",
+    "name": "Hippowdon",
+    "form": null,
+    "note": null,
+    "sprite": "0450",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-usum-wormhole": "U-W",
+      "pkm-bdsp-radar": "DPR"
+    }
+  },
+  {
+    "dexNumber": 451,
+    "slug": "skorupi",
+    "name": "Skorupi",
+    "form": null,
+    "note": null,
+    "sprite": "0451",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-xyoras-horde": "H",
+      "pkm-oras-dexnav": "DN",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 452,
+    "slug": "drapion",
+    "name": "Drapion",
+    "form": null,
+    "note": null,
+    "sprite": "0452",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-usum-wormhole": "U-W",
+      "pkm-xyoras-horde": "EH",
+      "pkm-ss": "SS",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 453,
+    "slug": "croagunk",
+    "name": "Croagunk",
+    "form": null,
+    "note": null,
+    "sprite": "0453",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 454,
+    "slug": "toxicroak",
+    "name": "Toxicroak",
+    "form": null,
+    "note": null,
+    "sprite": "0454",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-xy-safari": "FS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 455,
+    "slug": "carnivine",
+    "name": "Carnivine",
+    "form": null,
+    "note": null,
+    "sprite": "0455",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-xy-radar": "PR"
+    }
+  },
+  {
+    "dexNumber": 456,
+    "slug": "finneon",
+    "name": "Finneon",
+    "form": null,
+    "note": null,
+    "sprite": "0456",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS",
+      "pkm-oras-dexnav": "DN"
+    }
+  },
+  {
+    "dexNumber": 457,
+    "slug": "lumineon",
+    "name": "Lumineon",
+    "form": null,
+    "note": null,
+    "sprite": "0457",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "SOS",
+      "pkm-oras-dexnav": "EDN"
+    }
+  },
+  {
+    "dexNumber": 458,
+    "slug": "mantyke",
+    "name": "Mantyke",
+    "form": null,
+    "note": null,
+    "sprite": "0458",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-smusum-sos": "SOS",
+      "pkm-oras-dexnav": "DN"
+    }
+  },
+  {
+    "dexNumber": 459,
+    "slug": "snover",
+    "name": "Snover",
+    "form": null,
+    "note": null,
+    "sprite": "0459",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-xy-safari": "FS"
+    }
+  },
+  {
+    "dexNumber": 460,
+    "slug": "abomasnow",
+    "name": "Abomasnow",
+    "form": null,
+    "note": null,
+    "sprite": "0460",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-usum-wormhole": "U-W",
+      "pkm-ss": "SS",
+      "pkm-bdsp-radar": "DPR",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 461,
+    "slug": "weavile",
+    "name": "Weavile",
+    "form": null,
+    "note": null,
+    "sprite": "0461",
+    "methods": {
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-ss": "ESS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 462,
+    "slug": "magnezone",
+    "name": "Magnezone",
+    "form": null,
+    "note": null,
+    "sprite": "0462",
+    "methods": {
+      "pkm-lgpe": "ELG",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-xyoras-horde": "EH",
+      "pkm-ss": "ESS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 463,
+    "slug": "lickilicky",
+    "name": "Lickilicky",
+    "form": null,
+    "note": null,
+    "sprite": "0463",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lgpe": "ELG",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-xyoras-horde": "EH",
+      "pkm-ss": "ESS",
+      "pkm-bdsp-radar": "EDPR"
+    }
+  },
+  {
+    "dexNumber": 464,
+    "slug": "rhyperior",
+    "name": "Rhyperior",
+    "form": null,
+    "note": null,
+    "sprite": "0464",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lgpe": "ELG",
+      "pkm-sv": "SV*",
+      "pkm-ss": "ESS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 465,
+    "slug": "tangrowth",
+    "name": "Tangrowth",
+    "form": null,
+    "note": null,
+    "sprite": "0465",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lgpe": "ELG",
+      "pkm-ss": "ESS",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 466,
+    "slug": "electivire",
+    "name": "Electivire",
+    "form": null,
+    "note": null,
+    "sprite": "0466",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lgpe": "ELG",
+      "pkm-sv": "SV*",
+      "pkm-hgss-oddegg": "EG4",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-ss": "ESS",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 467,
+    "slug": "magmortar",
+    "name": "Magmortar",
+    "form": null,
+    "note": null,
+    "sprite": "0467",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lgpe": "ELG",
+      "pkm-sv": "SV*",
+      "pkm-hgss-oddegg": "EG4",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-ss": "ESS",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 468,
+    "slug": "togekiss",
+    "name": "Togekiss",
+    "form": null,
+    "note": null,
+    "sprite": "0468",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-ss": "ESS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 469,
+    "slug": "yanmega",
+    "name": "Yanmega",
+    "form": null,
+    "note": null,
+    "sprite": "0469",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV*",
+      "pkm-usum-wormhole": "U-W",
+      "pkm-xyoras-horde": "EH"
+    }
+  },
+  {
+    "dexNumber": 470,
+    "slug": "leafeon",
+    "name": "Leafeon",
+    "form": null,
+    "note": null,
+    "sprite": "0470",
+    "methods": {
+      "pkm-pla": "EPLA",
+      "pkm-lza": "ZA",
+      "pkm-lgpe": "ELG",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 471,
+    "slug": "glaceon",
+    "name": "Glaceon",
+    "form": null,
+    "note": null,
+    "sprite": "0471",
+    "methods": {
+      "pkm-pla": "EPLA",
+      "pkm-lza": "ZA",
+      "pkm-lgpe": "ELG",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 472,
+    "slug": "gliscor",
+    "name": "Gliscor",
+    "form": null,
+    "note": null,
+    "sprite": "0472",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV*",
+      "pkm-xyoras-horde": "EH"
+    }
+  },
+  {
+    "dexNumber": 473,
+    "slug": "mamoswine",
+    "name": "Mamoswine",
+    "form": null,
+    "note": null,
+    "sprite": "0473",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV*",
+      "pkm-ss": "ESS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 474,
+    "slug": "porygon-z",
+    "name": "Porygon-Z",
+    "form": null,
+    "note": null,
+    "sprite": "0474",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-lgpe": "ELG",
+      "pkm-sv": "SV*",
+      "pkm-ss": "ESS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-oras-dexnav": "EDN"
+    }
+  },
+  {
+    "dexNumber": 475,
+    "slug": "gallade",
+    "name": "Gallade",
+    "form": null,
+    "note": null,
+    "sprite": "0475",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-xyoras-horde": "EH",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 476,
+    "slug": "probopass",
+    "name": "Probopass",
+    "form": null,
+    "note": null,
+    "sprite": "0476",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV*",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-xyoras-horde": "EH",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 477,
+    "slug": "dusknoir",
+    "name": "Dusknoir",
+    "form": null,
+    "note": null,
+    "sprite": "0477",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-sv": "SV*",
+      "pkm-ss": "ESS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 478,
+    "slug": "froslass",
+    "name": "Froslass",
+    "form": null,
+    "note": null,
+    "sprite": "0478",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-xyoras-horde": "EH",
+      "pkm-ss": "SS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 479,
+    "slug": "rotom",
+    "name": "Rotom",
+    "form": null,
+    "note": null,
+    "sprite": "0479",
+    "methods": {
+      "pkm-pla": "PLA",
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV",
+      "pkm-ss": "SS"
+    }
+  },
+  {
+    "dexNumber": 480,
+    "slug": "uxie",
+    "name": "Uxie",
+    "form": null,
+    "note": null,
+    "sprite": "0480",
+    "methods": {
+      "pkm-usum-wormhole": "$U-W",
+      "pkm-ss": "SS",
+      "pkm-bdsp-radar": "$BDSP",
+      "pkm-oras-dexnav": "$ORAS"
+    }
+  },
+  {
+    "dexNumber": 481,
+    "slug": "mesprit",
+    "name": "Mesprit",
+    "form": null,
+    "note": null,
+    "sprite": "0481",
+    "methods": {
+      "pkm-usum-wormhole": "$U-W",
+      "pkm-ss": "SS",
+      "pkm-bdsp-radar": "$BDSP",
+      "pkm-oras-dexnav": "$ORAS"
+    }
+  },
+  {
+    "dexNumber": 482,
+    "slug": "azelf",
+    "name": "Azelf",
+    "form": null,
+    "note": null,
+    "sprite": "0482",
+    "methods": {
+      "pkm-usum-wormhole": "$U-W",
+      "pkm-ss": "SS",
+      "pkm-bdsp-radar": "$BDSP",
+      "pkm-oras-dexnav": "$ORAS"
+    }
+  },
+  {
+    "dexNumber": 483,
+    "slug": "dialga",
+    "name": "Dialga",
+    "form": null,
+    "note": null,
+    "sprite": "0483",
+    "methods": {
+      "pkm-usum-wormhole": "$U-W",
+      "pkm-ss": "SS",
+      "pkm-bdsp-radar": "$BDSP",
+      "pkm-oras-dexnav": "$ORAS"
+    }
+  },
+  {
+    "dexNumber": 484,
+    "slug": "palkia",
+    "name": "Palkia",
+    "form": null,
+    "note": null,
+    "sprite": "0484",
+    "methods": {
+      "pkm-usum-wormhole": "$U-W",
+      "pkm-ss": "SS",
+      "pkm-bdsp-radar": "$BDSP",
+      "pkm-oras-dexnav": "$ORAS"
+    }
+  },
+  {
+    "dexNumber": 485,
+    "slug": "heatran",
+    "name": "Heatran",
+    "form": null,
+    "note": null,
+    "sprite": "0485",
+    "methods": {
+      "pkm-usum-wormhole": "$U-W",
+      "pkm-ss": "SS",
+      "pkm-bdsp-radar": "$BDSP"
+    }
+  },
+  {
+    "dexNumber": 486,
+    "slug": "regigigas",
+    "name": "Regigigas",
+    "form": null,
+    "note": null,
+    "sprite": "0486",
+    "methods": {
+      "pkm-usum-wormhole": "$U-W",
+      "pkm-bdsp-radar": "$BDSP"
+    }
+  },
+  {
+    "dexNumber": 487,
+    "slug": "giratina",
+    "name": "Giratina",
+    "form": null,
+    "note": null,
+    "sprite": "0487",
+    "methods": {
+      "pkm-usum-wormhole": "$U-W",
+      "pkm-ss": "SS",
+      "pkm-bdsp-radar": "$BDSP",
+      "pkm-oras-dexnav": "$ORAS"
+    }
+  },
+  {
+    "dexNumber": 488,
+    "slug": "cresselia",
+    "name": "Cresselia",
+    "form": null,
+    "note": null,
+    "sprite": "0488",
+    "methods": {
+      "pkm-usum-wormhole": "$U-W",
+      "pkm-ss": "SS",
+      "pkm-bdsp-radar": "$BDSP",
+      "pkm-oras-dexnav": "$ORAS"
+    }
+  },
+  {
+    "dexNumber": 489,
+    "slug": "phione",
+    "name": "Phione",
+    "form": null,
+    "note": "Masuda Method any Manaphy in any game",
+    "sprite": "0489",
+    "methods": {}
+  },
+  {
+    "dexNumber": 490,
+    "slug": "manaphy",
+    "name": "Manaphy",
+    "form": null,
+    "note": "HOME BDSP Dex completion reward OR Pokemon Ranger Egg",
+    "sprite": "0490",
+    "methods": {}
+  },
+  {
+    "dexNumber": 491,
+    "slug": "darkrai",
+    "name": "Darkrai",
+    "form": null,
+    "note": "Soft Reset hunt only if you have the event already in BDSP",
+    "sprite": "0491",
+    "methods": {
+      "pkm-bdsp-radar": "$BDSP"
+    }
+  },
+  {
+    "dexNumber": 492,
+    "slug": "shaymin",
+    "name": "Shaymin",
+    "form": null,
+    "note": "Soft Reset hunt only if you have the event already in BDSP",
+    "sprite": "0492",
+    "methods": {
+      "pkm-bdsp-radar": "$BDSP"
+    }
+  },
+  {
+    "dexNumber": 493,
+    "slug": "arceus",
+    "name": "Arceus",
+    "form": null,
+    "note": "Soft Reset hunt only if you have a completed file of PLA",
+    "sprite": "0493",
+    "methods": {
+      "pkm-bdsp-radar": "$BDSP"
+    }
+  }
+]

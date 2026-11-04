@@ -12,24 +12,24 @@ struct DexView: View {
     @State private var query = ""
     @State private var onlyUncaught = false
     @State private var path: [Pokemon] = []
-    
-    private let pokedex = Pokemon.samples
+
+    private var pokedex: [Pokemon] { store.pokedex }   // computed: `store` isn't available in a property initializer
+
     private var uncaughtPokemon: [Pokemon] {
         pokedex.filter { !store.caught.contains($0.id) }
-   }
-    
+    }
+
     private var results: [Pokemon] {
-        pokedex.filter {
-            mon in
+        pokedex.filter { mon in
             let matchesQuery = query.isEmpty
                 || mon.displayName.localizedStandardContains(query)
-                || String(mon.dex).contains(query)
+                || String(mon.dexNumber).contains(query)
             let matchesChip = !onlyUncaught || !store.caught.contains(mon.id)
-            
+
             return matchesQuery && matchesChip
         }
     }
-    
+
     var body: some View {
         NavigationStack(path: $path) {
             ScrollView {
@@ -38,14 +38,14 @@ struct DexView: View {
                         "Living dex \(store.caught.count) / \(pokedex.count)",
                         value: Double(store.caught.count), total: Double(pokedex.count)
                     )
-                        .tint(Theme.gold)
-                    
+                    .tint(Theme.gold)
+
                     FilterChip(title: "Not caught", isOn: $onlyUncaught)
-                    
-                    Text("\(results.count) Pokemon")
+
+                    Text("\(results.count) Pokémon")
                         .font(.footnote.monospaced())
                         .foregroundStyle(.secondary)
-                    
+
                     LazyVGrid(
                         columns: [
                             GridItem(.flexible()),
@@ -58,7 +58,7 @@ struct DexView: View {
                                 DexCard(
                                     pokemon: mon,
                                     isCaught: caughtBinding(for: mon),
-                                    methodTag: store.engine.best(for: mon)?.method.title ?? "No method"
+                                    methodTag: store.bestMethodName(for: mon)
                                 )
                             }
                             .buttonStyle(.plain)
@@ -71,41 +71,37 @@ struct DexView: View {
                 Button("Pick my next hunt", systemImage: "dice") {
                     goToRandomPokemonView()
                 }
-                .disabled(
-                    uncaughtPokemon.isEmpty
-                )
+                .disabled(uncaughtPokemon.isEmpty)
             }
             .background(Theme.background)
             .navigationTitle("Dex")
             .navigationDestination(for: Pokemon.self) { mon in
                 PokemonDetailView(
                     pokemon: mon,
-                    isCaught: caughtBinding(for: mon))
+                    isCaught: caughtBinding(for: mon)
+                )
             }
             .searchable(text: $query, prompt: "Search name or dex number")
         }
     }
-    
-    
+
     private func caughtBinding(for mon: Pokemon) -> Binding<Bool> {
         Binding(
             get: { store.caught.contains(mon.id) },
-            set: { isOn in
-                if isOn {
-                    store.caught.insert(mon.id)
-                } else {
-                    store.caught.remove(mon.id)
-                }
-            }
+            set: { store.setCaught(mon, $0) }
         )
     }
-    
+
     private func goToRandomPokemonView() {
         guard let randomPokemon = uncaughtPokemon.randomElement() else { return }
-        
         path.append(randomPokemon)
     }
 }
 
-#Preview { DexView().environment(HuntStore())
+#Preview("Fresh start") {
+    DexView().environment(HuntStore.preview())
+}
+
+#Preview("Some caught") {
+    DexView().environment(HuntStore.preview(caught: ["gible", "bulbasaur", "nidoran-f"]))
 }

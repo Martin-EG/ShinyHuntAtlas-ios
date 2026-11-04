@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct PokemonDetailView: View {
+    @Environment(HuntStore.self) private var store
     let pokemon: Pokemon
     @Binding var isCaught: Bool
-    
+
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
@@ -18,7 +19,6 @@ struct PokemonDetailView: View {
                 bestHuntCard
             }
             .padding(20)
-            
         }
         .background(Theme.background)
         .navigationTitle(pokemon.displayName)
@@ -28,19 +28,23 @@ struct PokemonDetailView: View {
                 item: "I'm hunting a shiny \(pokemon.displayName) ✦ ShinyHunt Atlas"
             )
         }
-        .safeAreaInset(edge: .bottom) { catchButton }
+        .safeAreaInset(edge: .bottom) {
+            catchButton
+                .padding(.horizontal, 20)
+                .padding(.vertical, 12)
+                .background(.bar)
+        }
     }
-    
+
+    // MARK: Header
+
     private var header: some View {
         HStack(spacing: 16) {
-            Image(systemName: "sparkles")
-                .font(.system(size: 44))
-                .foregroundStyle(Theme.gold)
-                .frame(width: 96, height: 96)
+            SpriteView(pokemon: pokemon, size: 96)
                 .background(.white, in: .rect(cornerRadius: 18))
-            
+
             VStack(alignment: .leading, spacing: 2) {
-                Text(String(format: "#%04d", pokemon.dex))
+                Text(String(format: "#%04d", pokemon.dexNumber))
                     .font(.caption.monospaced())
                     .foregroundStyle(Theme.textMuted)
                 Text(pokemon.displayName)
@@ -55,29 +59,41 @@ struct PokemonDetailView: View {
             }
         }
     }
-    
+
+    // MARK: Best hunt
+
     private var bestHuntCard: some View {
         VStack(alignment: .leading, spacing: 6) {
-            Text("Best hunt in your game")
+            Text("Best hunt in your games")
                 .font(.caption.monospaced().weight(.semibold))
                 .textCase(.uppercase)
                 .foregroundStyle(Theme.textMuted)
-            Text("BDSP PokeRadar")
-                .font(.title3.bold())
-                .foregroundStyle(Theme.navy)
-            Text("Brilliant Diamond / Shining Pearl · Switch")
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
+
+            if let match = store.engine.best(for: pokemon),
+               let info = store.methodInfo[match.method] {          // two unwraps in one `if`
+                Text(info.short)
+                    .font(.title3.bold())
+                    .foregroundStyle(Theme.navy)
+                Text(store.games[info.game]?.name ?? "")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+                Text(info.oddsWithoutCharm)
+                    .font(.footnote.monospaced())
+                    .foregroundStyle(Theme.navy)
+            } else {
+                Text("Not huntable in your games")
+                    .font(.title3.bold())
+                    .foregroundStyle(Theme.navy)
+            }
         }
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .padding(16)
-            .background(.white, in: .rect(cornerRadius: 18))
-            .overlay(
-                RoundedRectangle(cornerRadius: 18)
-                    .stroke(Theme.border)
-            )
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(16)
+        .background(.white, in: .rect(cornerRadius: 18))
+        .overlay(RoundedRectangle(cornerRadius: 18).stroke(Theme.border))
     }
-    
+
+    // MARK: Catch
+
     private var catchButton: some View {
         Button {
             withAnimation(.snappy) {
@@ -99,16 +115,14 @@ struct PokemonDetailView: View {
         }
         .buttonStyle(.plain)
         .sensoryFeedback(.success, trigger: isCaught)
-        .padding(.horizontal, 20)
-        .padding(.vertical, 12)
-        .background(.bar)
     }
 }
 
 #Preview {
     @Previewable @State var caught = false
-    
+
     NavigationStack {
-        PokemonDetailView(pokemon: .samples[3], isCaught: $caught)
+        PokemonDetailView(pokemon: .preview, isCaught: $caught)
     }
+    .environment(HuntStore.preview())
 }

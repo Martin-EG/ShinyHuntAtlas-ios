@@ -1,0 +1,50 @@
+{
+  "pkm-pla": {
+    "name": "Pokémon Legends: Arceus",
+    "console": "Nintendo Switch"
+  },
+  "pkm-lza": {
+    "name": "Pokémon Legends Z-A",
+    "console": "Nintendo Switch"
+  },
+  "pkm-lgpe": {
+    "name": "Pokémon: Let's Go, Pikachu! / Let's Go, Eevee!",
+    "console": "Nintendo Switch"
+  },
+  "pkm-sv": {
+    "name": "Pokémon Scarlet / Violet",
+    "console": "Nintendo Switch"
+  },
+  "pkm-usum": {
+    "name": "Pokémon Ultra Sun / Ultra Moon",
+    "console": "Nintendo 3DS"
+  },
+  "pkm-hgss": {
+    "name": "Pokémon HeartGold / SoulSilver",
+    "console": "Nintendo DS"
+  },
+  "pkm-smusum": {
+    "name": "Pokémon Sun / Moon · Ultra Sun / Ultra Moon",
+    "console": "Nintendo 3DS"
+  },
+  "pkm-xyoras": {
+    "name": "Pokémon X / Y · Omega Ruby / Alpha Sapphire",
+    "console": "Nintendo 3DS"
+  },
+  "pkm-ss": {
+    "name": "Pokémon Sword / Shield + The Crown Tundra",
+    "console": "Nintendo Switch"
+  },
+  "pkm-bdsp": {
+    "name": "Pokémon Brilliant Diamond / Shining Pearl",
+    "console": "Nintendo Switch"
+  },
+  "pkm-oras": {
+    "name": "Pokémon Omega Ruby / Alpha Sapphire",
+    "console": "Nintendo 3DS"
+  },
+  "pkm-xy": {
+    "name": "Pokémon X / Y",
+    "console": "Nintendo 3DS"
+  }
+}

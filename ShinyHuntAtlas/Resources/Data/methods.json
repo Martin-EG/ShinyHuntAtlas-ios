@@ -1,0 +1,364 @@
+[
+    {
+      "id": "pkm-pla",
+      "game": "pkm-pla",
+      "short": "PLA Outbreaks",
+      "name": "Legends: Arceus — Mass & Massive Mass Outbreaks",
+      "description": "Outbreaks of a single species spawn in one spot on the map. Each outbreak Pokémon gets a huge number of extra shiny rolls — +25 for a Mass Outbreak, +12 for a Massive Mass Outbreak — and you can reset the spawns by returning to the village and back. Fast, hands-on, and one of the best all-around hunts in the series.",
+      "oddsWithoutCharm": "~1/158 (Mass Outbreak) · ~1/316 (Massive Mass Outbreak)",
+      "oddsWithCharm": "~1/137 (Mass Outbreak) · ~1/241 (Massive Mass Outbreak), with Level 10 Pokédex research",
+      "oddsNote": "Raising a species' Pokédex research to Level 10 improves its odds even without the Shiny Charm",
+      "oddsPresets": [
+        {
+          "label": "Mass Outbreak",
+          "denominator": 158
+        },
+        {
+          "label": "Mass Outbreak · Dex Lv 10",
+          "denominator": 152
+        },
+        {
+          "label": "Mass Outbreak · Dex 10 + Charm",
+          "denominator": 137
+        },
+        {
+          "label": "Massive Mass Outbreak",
+          "denominator": 316
+        },
+        {
+          "label": "Massive MO · Dex Lv 10",
+          "denominator": 293
+        },
+        {
+          "label": "Massive MO · Dex 10 + Charm",
+          "denominator": 241
+        },
+        {
+          "label": "Regular spawn",
+          "denominator": 4096
+        },
+        {
+          "label": "Regular spawn · Dex 10 + Charm",
+          "denominator": 819
+        }
+      ],
+      "defaultRank": 1
+    },
+    {
+      "id": "pkm-lza",
+      "game": "pkm-lza",
+      "short": "Z-A Resets",
+      "name": "Legends Z-A — Hyperspace, Bench & Fast-Travel Resets",
+      "description": "Wild Zone spawns reroll every time you rest at a bench or fast travel, so you can re-check dozens of Pokémon in seconds — a turbo controller lets you hunt several species at once, semi-AFK. The DLC's Hyperspace Lumiose Wild Zones add boosted odds on top, especially with a Sparkling Power Level 3 meal.",
+      "oddsWithoutCharm": "1/4096 per spawn · ~1/585 – 1/1024 in DLC Hyperspace zones with Sparkling Lv. 3",
+      "oddsWithCharm": "1/1024 per spawn",
+      "oddsNote": "Low odds per spawn, but the sheer speed of rerolls makes it very efficient",
+      "oddsPresets": [
+        {
+          "label": "Bench/travel reset",
+          "denominator": 4096
+        },
+        {
+          "label": "Bench/travel reset + Charm",
+          "denominator": 1024
+        },
+        {
+          "label": "Hyperspace + Sparkling Lv 3 (DLC)",
+          "denominator": 1024
+        },
+        {
+          "label": "Hyperspace + Sparkling + Charm (DLC)",
+          "denominator": 585
+        }
+      ],
+      "defaultRank": 2
+    },
+    {
+      "id": "pkm-lgpe",
+      "game": "pkm-lgpe",
+      "short": "LGPE Catch Combo",
+      "name": "Let's Go Pikachu / Eevee — Catch Combos",
+      "description": "Catch the same species over and over to build a Catch Combo. At a combo of 31+ your shiny odds are maxed for that species, and shinies sparkle visibly in the overworld, so you can just stroll around with a Lure active and watch for the glint.",
+      "oddsWithoutCharm": "1/341 at Catch Combo 31+ with a Lure",
+      "oddsWithCharm": "1/273 at Catch Combo 31+ with a Lure",
+      "oddsNote": "You earn the Shiny Charm by completing the Kanto Pokédex (all 150)",
+      "oddsPresets": [
+        {
+          "label": "Combo 31+",
+          "denominator": 341
+        },
+        {
+          "label": "Combo 31+ + Charm",
+          "denominator": 293
+        },
+        {
+          "label": "Combo 31+ + Lure + Charm",
+          "denominator": 273
+        }
+      ],
+      "defaultRank": 3
+    },
+    {
+      "id": "pkm-sv",
+      "game": "pkm-sv",
+      "short": "SV Sandwich",
+      "name": "Scarlet / Violet — Shiny Sandwich (& Mass Outbreaks)",
+      "description": "Make a sandwich with Sparkling Power Level 3 for your target's type (needs a Herba Mystica) and every spawn of that type gets boosted shiny odds for 30 minutes. Best combined with a Mass Outbreak of your target: knock out 60 of them first, then picnic-reset the spawns. Shinies don't sparkle in the overworld here, so watch closely for the color difference.",
+      "oddsWithoutCharm": "~1/683 – 1/1024 (Sparkling Lv. 3; better inside a cleared outbreak)",
+      "oddsWithCharm": "~1/512 – 1/819 (Sparkling Lv. 3 inside a cleared outbreak)",
+      "oddsNote": "Paradox Pokémon can't appear in outbreaks; isolated spawn spots make targets easier to check",
+      "oddsPresets": [
+        {
+          "label": "Sparkling Lv 3",
+          "denominator": 1024
+        },
+        {
+          "label": "Sparkling Lv 3 + Charm",
+          "denominator": 683
+        },
+        {
+          "label": "Outbreak (60+ KO) + Sparkling",
+          "denominator": 819
+        },
+        {
+          "label": "Outbreak + Sparkling + Charm",
+          "denominator": 512
+        }
+      ],
+      "defaultRank": 4
+    },
+    {
+      "id": "pkm-usum-wormhole",
+      "game": "pkm-usum",
+      "short": "USUM Wormholes",
+      "name": "Ultra Sun / Ultra Moon — Ultra Wormholes",
+      "description": "Ride Solgaleo/Lunala through Ultra Space. The rarer the wormhole and the further you travel, the higher the shiny chance of the Pokémon waiting inside — up to roughly 1 in 3. Note that these regular wormhole encounters are not soft-resettable — the shiny roll is locked when you enter, so it's a pure numbers game. Legendaries and Ultra Beasts found in wormholes are the exception: those are soft-reset hunts at standard odds instead. The Pokémon pool is limited, but the odds are some of the best in the series.",
+      "oddsWithoutCharm": "1% – 36% (up to ~1/3), scaling with wormhole type and distance",
+      "oddsWithCharm": "Same — the Shiny Charm does not affect wormhole odds",
+      "oddsNote": "Legendaries and Ultra Beasts are not boosted by wormhole distance — soft reset those at standard odds (1/4096, or 1/1365 with the Shiny Charm)",
+      "oddsPresets": [
+        {
+          "label": "Max distance, rare ring (~36%)",
+          "denominator": 3
+        },
+        {
+          "label": "Good run (~10%)",
+          "denominator": 10
+        },
+        {
+          "label": "Minimum boost (~1%)",
+          "denominator": 100
+        },
+        {
+          "label": "Legendary soft reset",
+          "denominator": 4096
+        },
+        {
+          "label": "Legendary soft reset + Charm",
+          "denominator": 1365
+        }
+      ],
+      "defaultRank": 5
+    },
+    {
+      "id": "pkm-hgss-oddegg",
+      "game": "pkm-hgss",
+      "short": "HG/SS Odd Egg",
+      "name": "Gen 4 (HeartGold / SoulSilver) — Odd Egg & Breeding Tricks",
+      "description": "Old-school breeding quirks give certain baby Pokémon dramatically boosted shiny hatch rates — see the per-species rates in your guide. The Japanese Odd Egg famously hits a 50% shiny rate; international versions sit around 14%. Slow to hatch, but the odds per egg are unmatched for these specific babies.",
+      "oddsWithoutCharm": "~1/7 (14%) international · 50% Japanese Odd Egg · ~1–3% per egg for Cute Charm-era babies",
+      "oddsWithCharm": "Not affected — these games predate the Shiny Charm",
+      "oddsNote": "Only a small pool of baby Pokémon qualifies",
+      "oddsPresets": [
+        {
+          "label": "International Odd Egg (14%)",
+          "denominator": 7
+        },
+        {
+          "label": "Japanese Odd Egg (50%)",
+          "denominator": 2
+        },
+        {
+          "label": "Cute Charm baby (~1%)",
+          "denominator": 100
+        }
+      ],
+      "defaultRank": 6
+    },
+    {
+      "id": "pkm-smusum-sos",
+      "game": "pkm-smusum",
+      "short": "SOS Chaining",
+      "name": "Sun / Moon & Ultra Sun / Ultra Moon — SOS Chaining",
+      "description": "Weaken a wild Pokémon so it calls allies for help, then knock out each ally so it keeps calling. Once the chain passes 30, every new ally gets extra shiny rolls. Adrenaline Orbs and a Pokémon with False Swipe make the chain manageable. Fair warning from the guide: which species can actually be called is messy — double-check before settling in.",
+      "oddsWithoutCharm": "1/315 at chain 30+",
+      "oddsWithCharm": "1/273 at chain 30+",
+      "oddsNote": "The ally pool is poorly documented and complicated for some species",
+      "oddsPresets": [
+        {
+          "label": "Chain 30+",
+          "denominator": 315
+        },
+        {
+          "label": "Chain 30+ + Charm",
+          "denominator": 273
+        }
+      ],
+      "defaultRank": 7
+    },
+    {
+      "id": "pkm-xyoras-horde",
+      "game": "pkm-xyoras",
+      "short": "Gen 6 Hordes",
+      "name": "Gen 6 (X / Y & Omega Ruby / Alpha Sapphire) — Horde Encounters",
+      "description": "Use Sweet Scent (or Honey) to summon a horde of five wild Pokémon at once — five shiny checks per battle instead of one. A Pokémon with a spread move like Surf clears the non-shinies quickly. Check whether your target hordes in X/Y, ORAS, or both.",
+      "oddsWithoutCharm": "1/4096 per Pokémon (≈ 1/820 per horde)",
+      "oddsWithCharm": "1/1365 per Pokémon (≈ 1/273 per horde)",
+      "oddsNote": null,
+      "oddsPresets": [
+        {
+          "label": "Per Pokémon",
+          "denominator": 4096
+        },
+        {
+          "label": "Per Pokémon + Charm",
+          "denominator": 1365
+        },
+        {
+          "label": "Per horde of 5",
+          "denominator": 820
+        },
+        {
+          "label": "Per horde of 5 + Charm",
+          "denominator": 273
+        }
+      ],
+      "defaultRank": 8
+    },
+    {
+      "id": "pkm-ss",
+      "game": "pkm-ss",
+      "short": "Dynamax Adventures",
+      "name": "Sword / Shield (Crown Tundra DLC) — Dynamax Adventures",
+      "description": "Run through a Max Raid dungeon with rental Pokémon and catch everything you beat — up to four Pokémon per run, each with its own shiny roll you only see at the very end. The star attraction: every legendary at the end of a run is a guaranteed catch, making this the classic way to shiny hunt legendaries.",
+      "oddsWithoutCharm": "1/300 per Pokémon caught",
+      "oddsWithCharm": "1/100 per Pokémon caught",
+      "oddsNote": "With four catches per run, a charmed run is roughly a 1-in-25 chance of at least one shiny",
+      "oddsPresets": [
+        {
+          "label": "Per Pokémon caught",
+          "denominator": 300
+        },
+        {
+          "label": "Per Pokémon caught + Charm",
+          "denominator": 100
+        }
+      ],
+      "defaultRank": 9
+    },
+    {
+      "id": "pkm-xyoras-fishing",
+      "game": "pkm-xyoras",
+      "short": "Chain Fishing",
+      "name": "Gen 6 (X / Y & Omega Ruby / Alpha Sapphire) — Chain Fishing",
+      "description": "Reel in fish Pokémon back-to-back without moving your character or failing a reel — each consecutive catch raises the shiny chance until it caps at a chain of 20. A lead Pokémon with Suction Cups or Sticky Hold keeps the bites coming. Relaxing, low-effort, and quick to reach great odds.",
+      "oddsWithoutCharm": "1/100 at chain 20",
+      "oddsWithCharm": "1/96 at chain 20",
+      "oddsNote": null,
+      "oddsPresets": [
+        {
+          "label": "Chain 20",
+          "denominator": 100
+        },
+        {
+          "label": "Chain 20 + Charm",
+          "denominator": 96
+        }
+      ],
+      "defaultRank": 10
+    },
+    {
+      "id": "pkm-bdsp-radar",
+      "game": "pkm-bdsp",
+      "short": "BDSP PokéRadar",
+      "name": "Brilliant Diamond / Shining Pearl — PokéRadar",
+      "description": "Charge the PokéRadar in tall grass and chain the same species by always entering the patches that shake the same way, four or more squares away. At a chain of 40 your odds cap, and a sparkling grass patch means the shiny is there waiting. Breaking a chain hurts, so patience and good patch-reading are the skill here.",
+      "oddsWithoutCharm": "1/99 at chain 40",
+      "oddsWithCharm": "Same — the Shiny Charm does not affect Radar chains",
+      "oddsNote": null,
+      "oddsPresets": [
+        {
+          "label": "Chain 40 (Charm has no effect)",
+          "denominator": 99
+        }
+      ],
+      "defaultRank": 11
+    },
+    {
+      "id": "pkm-oras-dexnav",
+      "game": "pkm-oras",
+      "short": "ORAS DexNav",
+      "name": "Omega Ruby / Alpha Sapphire — DexNav",
+      "description": "Sneak up on the rustling grass shown by the DexNav to chain a species. Your Search Level with that species keeps improving the odds permanently — at Search Level 999 the odds are excellent, and chain bonuses can spike them even higher. DexNav shinies also come with egg moves, potential Hidden Abilities, and guaranteed strong IVs.",
+      "oddsWithoutCharm": "1/476 at Search Level 999 · chain bonus up to ~1/56",
+      "oddsWithCharm": "1/173 at Search Level 999 · chain bonus up to ~1/46",
+      "oddsNote": "Search Level progress never resets, so this hunt gets better the longer you work a species",
+      "oddsPresets": [
+        {
+          "label": "Search Level 999",
+          "denominator": 476
+        },
+        {
+          "label": "Search Level 999 + Charm",
+          "denominator": 173
+        },
+        {
+          "label": "Chain bonus peak",
+          "denominator": 56
+        },
+        {
+          "label": "Chain bonus peak + Charm",
+          "denominator": 46
+        }
+      ],
+      "defaultRank": 12
+    },
+    {
+      "id": "pkm-xy-safari",
+      "game": "pkm-xy",
+      "short": "Friend Safari",
+      "name": "X / Y — Friend Safari",
+      "description": "Post-game safaris tied to your 3DS friend codes, each containing a set trio of one type. Every encounter inside has boosted shiny odds, plus a chance at Hidden Abilities and two guaranteed perfect IVs — great for shinies you actually want to use.",
+      "oddsWithoutCharm": "1/819",
+      "oddsWithCharm": "1/585",
+      "oddsNote": "Which species you can access depends on your friends' safaris",
+      "oddsPresets": [
+        {
+          "label": "Safari encounter",
+          "denominator": 819
+        },
+        {
+          "label": "Safari encounter + Charm",
+          "denominator": 585
+        }
+      ],
+      "defaultRank": 13
+    },
+    {
+      "id": "pkm-xy-radar",
+      "game": "pkm-xy",
+      "short": "XY PokéRadar",
+      "name": "X / Y — PokéRadar Chaining",
+      "description": "The original PokéRadar chain, refined: charge the Radar, chain identical patches of shaking grass, and hunt the sparkle at chain 40. X/Y's version has friendlier odds early in the chain than the Sinnoh original, but it's still one of the more demanding hunts to execute cleanly.",
+      "oddsWithoutCharm": "1/200 at chain 40",
+      "oddsWithCharm": "Same — the Shiny Charm does not affect Radar chains",
+      "oddsNote": null,
+      "oddsPresets": [
+        {
+          "label": "Chain 40 (Charm has no effect)",
+          "denominator": 200
+        }
+      ],
+      "defaultRank": 14
+    }
+  ]

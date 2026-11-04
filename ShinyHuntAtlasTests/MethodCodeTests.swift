@@ -26,4 +26,11 @@ struct MethodCodeTests {
         #expect(c.isEvolution && c.isSoftReset && c.needsDLC)
         #expect(c.game == "SV")
     }
+    @Test func realCodesFromTheData() {
+        let edn = MethodCode("EDN")
+        #expect(edn.isEvolution && edn.game == "DN")
+
+        let uw = MethodCode("$U-W")
+        #expect(uw.isSoftReset && uw.game == "U-W")
+    }
 }

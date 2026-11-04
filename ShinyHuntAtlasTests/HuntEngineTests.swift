@@ -9,33 +9,25 @@ import Testing
 @testable import ShinyHuntAtlas
 
 struct HuntEngineTests {
-    let gible = Pokemon(
-        dex: 443,
-        name: "Gible",
-        form: nil,
-        comment: nil,
-        methods: [.bdsp: "BDSP", .sv: "SV"]
-    )
-    
+    let gible = Pokemon.preview     // pla, lza, sv, dexNav
+
     @Test func picksHighestRankedMethod() {
-        let engine = HuntEngine(order: [.bdsp, .sv], enabled: [.bdsp, .sv])
-        
-        #expect(engine.best(for: gible)?.method == .bdsp)
+        let engine = HuntEngine(order: [.pla, .sv], enabled: [.pla, .sv])
+        #expect(engine.best(for: gible)?.method == .pla)
     }
-    
+
     @Test func respectsUserOrder() {
-        let engine = HuntEngine(order: [.sv, .bdsp], enabled: [.bdsp, .sv])
-        
+        let engine = HuntEngine(order: [.sv, .pla], enabled: [.pla, .sv])
         #expect(engine.best(for: gible)?.method == .sv)
     }
-    
+
     @Test func skipsGamesYouDontOwn() {
-        let engine = HuntEngine(order: [.bdsp, .sv], enabled: [.sv])
+        let engine = HuntEngine(order: [.pla, .sv], enabled: [.sv])
         #expect(engine.best(for: gible)?.method == .sv)
     }
 
     @Test func returnsNilWhenNothingIsAvailable() {
-        let engine = HuntEngine(order: [.pla], enabled: [.pla])
+        let engine = HuntEngine(order: [.bdspRadar], enabled: [.bdspRadar])
         #expect(engine.best(for: gible) == nil)
     }
 }

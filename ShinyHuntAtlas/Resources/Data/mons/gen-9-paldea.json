@@ -1,0 +1,1315 @@
+[
+  {
+    "dexNumber": 906,
+    "slug": "sprigatito",
+    "name": "Sprigatito",
+    "form": null,
+    "note": null,
+    "sprite": "0906",
+    "methods": {}
+  },
+  {
+    "dexNumber": 907,
+    "slug": "floragato",
+    "name": "Floragato",
+    "form": null,
+    "note": null,
+    "sprite": "0907",
+    "methods": {}
+  },
+  {
+    "dexNumber": 908,
+    "slug": "meowscarada",
+    "name": "Meowscarada",
+    "form": null,
+    "note": null,
+    "sprite": "0908",
+    "methods": {}
+  },
+  {
+    "dexNumber": 909,
+    "slug": "fuecoco",
+    "name": "Fuecoco",
+    "form": null,
+    "note": null,
+    "sprite": "0909",
+    "methods": {}
+  },
+  {
+    "dexNumber": 910,
+    "slug": "crocalor",
+    "name": "Crocalor",
+    "form": null,
+    "note": null,
+    "sprite": "0910",
+    "methods": {}
+  },
+  {
+    "dexNumber": 911,
+    "slug": "skeledirge",
+    "name": "Skeledirge",
+    "form": null,
+    "note": null,
+    "sprite": "0911",
+    "methods": {}
+  },
+  {
+    "dexNumber": 912,
+    "slug": "quaxly",
+    "name": "Quaxly",
+    "form": null,
+    "note": null,
+    "sprite": "0912",
+    "methods": {}
+  },
+  {
+    "dexNumber": 913,
+    "slug": "quaxwell",
+    "name": "Quaxwell",
+    "form": null,
+    "note": null,
+    "sprite": "0913",
+    "methods": {}
+  },
+  {
+    "dexNumber": 914,
+    "slug": "quaquaval",
+    "name": "Quaquaval",
+    "form": null,
+    "note": null,
+    "sprite": "0914",
+    "methods": {}
+  },
+  {
+    "dexNumber": 915,
+    "slug": "lechonk",
+    "name": "Lechonk",
+    "form": null,
+    "note": null,
+    "sprite": "0915",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 916,
+    "slug": "oinkologne",
+    "name": "Oinkologne",
+    "form": null,
+    "note": null,
+    "sprite": "0916",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 917,
+    "slug": "tarountula",
+    "name": "Tarountula",
+    "form": null,
+    "note": null,
+    "sprite": "0917",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 918,
+    "slug": "spidops",
+    "name": "Spidops",
+    "form": null,
+    "note": null,
+    "sprite": "0918",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 919,
+    "slug": "nymble",
+    "name": "Nymble",
+    "form": null,
+    "note": null,
+    "sprite": "0919",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 920,
+    "slug": "lokix",
+    "name": "Lokix",
+    "form": null,
+    "note": null,
+    "sprite": "0920",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 921,
+    "slug": "pawmi",
+    "name": "Pawmi",
+    "form": null,
+    "note": null,
+    "sprite": "0921",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 922,
+    "slug": "pawmo",
+    "name": "Pawmo",
+    "form": null,
+    "note": null,
+    "sprite": "0922",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 923,
+    "slug": "pawmot",
+    "name": "Pawmot",
+    "form": null,
+    "note": null,
+    "sprite": "0923",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 924,
+    "slug": "tandemaus",
+    "name": "Tandemaus",
+    "form": null,
+    "note": null,
+    "sprite": "0924",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 925,
+    "slug": "maushold",
+    "name": "Maushold",
+    "form": null,
+    "note": null,
+    "sprite": "0925",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 926,
+    "slug": "fidough",
+    "name": "Fidough",
+    "form": null,
+    "note": null,
+    "sprite": "0926",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 927,
+    "slug": "dachsbun",
+    "name": "Dachsbun",
+    "form": null,
+    "note": null,
+    "sprite": "0927",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 928,
+    "slug": "smoliv",
+    "name": "Smoliv",
+    "form": null,
+    "note": null,
+    "sprite": "0928",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 929,
+    "slug": "dolliv",
+    "name": "Dolliv",
+    "form": null,
+    "note": null,
+    "sprite": "0929",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 930,
+    "slug": "arboliva",
+    "name": "Arboliva",
+    "form": null,
+    "note": null,
+    "sprite": "0930",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 931,
+    "slug": "squawkabilly",
+    "name": "Squawkabilly",
+    "form": null,
+    "note": null,
+    "sprite": "0931",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 932,
+    "slug": "nacli",
+    "name": "Nacli",
+    "form": null,
+    "note": null,
+    "sprite": "0932",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 933,
+    "slug": "naclstack",
+    "name": "Naclstack",
+    "form": null,
+    "note": null,
+    "sprite": "0933",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 934,
+    "slug": "garganacl",
+    "name": "Garganacl",
+    "form": null,
+    "note": null,
+    "sprite": "0934",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 935,
+    "slug": "charcadet",
+    "name": "Charcadet",
+    "form": null,
+    "note": null,
+    "sprite": "0935",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 936,
+    "slug": "armarouge",
+    "name": "Armarouge",
+    "form": null,
+    "note": null,
+    "sprite": "0936",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 937,
+    "slug": "ceruledge",
+    "name": "Ceruledge",
+    "form": null,
+    "note": null,
+    "sprite": "0937",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 938,
+    "slug": "tadbulb",
+    "name": "Tadbulb",
+    "form": null,
+    "note": null,
+    "sprite": "0938",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 939,
+    "slug": "bellibolt",
+    "name": "Bellibolt",
+    "form": null,
+    "note": null,
+    "sprite": "0939",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 940,
+    "slug": "wattrel",
+    "name": "Wattrel",
+    "form": null,
+    "note": null,
+    "sprite": "0940",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 941,
+    "slug": "kilowattrel",
+    "name": "Kilowattrel",
+    "form": null,
+    "note": null,
+    "sprite": "0941",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 942,
+    "slug": "maschiff",
+    "name": "Maschiff",
+    "form": null,
+    "note": null,
+    "sprite": "0942",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 943,
+    "slug": "mabosstiff",
+    "name": "Mabosstiff",
+    "form": null,
+    "note": null,
+    "sprite": "0943",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 944,
+    "slug": "shroodle",
+    "name": "Shroodle",
+    "form": null,
+    "note": null,
+    "sprite": "0944",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 945,
+    "slug": "grafaiai",
+    "name": "Grafaiai",
+    "form": null,
+    "note": null,
+    "sprite": "0945",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 946,
+    "slug": "bramblin",
+    "name": "Bramblin",
+    "form": null,
+    "note": null,
+    "sprite": "0946",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 947,
+    "slug": "brambleghast",
+    "name": "Brambleghast",
+    "form": null,
+    "note": null,
+    "sprite": "0947",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 948,
+    "slug": "toedscool",
+    "name": "Toedscool",
+    "form": null,
+    "note": null,
+    "sprite": "0948",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 949,
+    "slug": "toedscruel",
+    "name": "Toedscruel",
+    "form": null,
+    "note": null,
+    "sprite": "0949",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 950,
+    "slug": "klawf",
+    "name": "Klawf",
+    "form": null,
+    "note": null,
+    "sprite": "0950",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 951,
+    "slug": "capsakid",
+    "name": "Capsakid",
+    "form": null,
+    "note": null,
+    "sprite": "0951",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 952,
+    "slug": "scovillain",
+    "name": "Scovillain",
+    "form": null,
+    "note": null,
+    "sprite": "0952",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 953,
+    "slug": "rellor",
+    "name": "Rellor",
+    "form": null,
+    "note": null,
+    "sprite": "0953",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 954,
+    "slug": "rabsca",
+    "name": "Rabsca",
+    "form": null,
+    "note": null,
+    "sprite": "0954",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 955,
+    "slug": "flittle",
+    "name": "Flittle",
+    "form": null,
+    "note": null,
+    "sprite": "0955",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 956,
+    "slug": "espathra",
+    "name": "Espathra",
+    "form": null,
+    "note": null,
+    "sprite": "0956",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 957,
+    "slug": "tinkatink",
+    "name": "Tinkatink",
+    "form": null,
+    "note": null,
+    "sprite": "0957",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 958,
+    "slug": "tinkatuff",
+    "name": "Tinkatuff",
+    "form": null,
+    "note": null,
+    "sprite": "0958",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 959,
+    "slug": "tinkaton",
+    "name": "Tinkaton",
+    "form": null,
+    "note": null,
+    "sprite": "0959",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 960,
+    "slug": "wiglett",
+    "name": "Wiglett",
+    "form": null,
+    "note": null,
+    "sprite": "0960",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 961,
+    "slug": "wugtrio",
+    "name": "Wugtrio",
+    "form": null,
+    "note": null,
+    "sprite": "0961",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 962,
+    "slug": "bombirdier",
+    "name": "Bombirdier",
+    "form": null,
+    "note": null,
+    "sprite": "0962",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 963,
+    "slug": "finizen",
+    "name": "Finizen",
+    "form": null,
+    "note": null,
+    "sprite": "0963",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 964,
+    "slug": "palafin",
+    "name": "Palafin",
+    "form": null,
+    "note": null,
+    "sprite": "0964",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 965,
+    "slug": "varoom",
+    "name": "Varoom",
+    "form": null,
+    "note": null,
+    "sprite": "0965",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 966,
+    "slug": "revavroom",
+    "name": "Revavroom",
+    "form": null,
+    "note": null,
+    "sprite": "0966",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 967,
+    "slug": "cyclizar",
+    "name": "Cyclizar",
+    "form": null,
+    "note": null,
+    "sprite": "0967",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 968,
+    "slug": "orthworm",
+    "name": "Orthworm",
+    "form": null,
+    "note": null,
+    "sprite": "0968",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 969,
+    "slug": "glimmet",
+    "name": "Glimmet",
+    "form": null,
+    "note": null,
+    "sprite": "0969",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 970,
+    "slug": "glimmora",
+    "name": "Glimmora",
+    "form": null,
+    "note": null,
+    "sprite": "0970",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 971,
+    "slug": "greavard",
+    "name": "Greavard",
+    "form": null,
+    "note": null,
+    "sprite": "0971",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 972,
+    "slug": "houndstone",
+    "name": "Houndstone",
+    "form": null,
+    "note": null,
+    "sprite": "0972",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 973,
+    "slug": "flamigo",
+    "name": "Flamigo",
+    "form": null,
+    "note": null,
+    "sprite": "0973",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 974,
+    "slug": "cetoddle",
+    "name": "Cetoddle",
+    "form": null,
+    "note": null,
+    "sprite": "0974",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 975,
+    "slug": "cetitan",
+    "name": "Cetitan",
+    "form": null,
+    "note": null,
+    "sprite": "0975",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 976,
+    "slug": "veluza",
+    "name": "Veluza",
+    "form": null,
+    "note": null,
+    "sprite": "0976",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 977,
+    "slug": "dondozo",
+    "name": "Dondozo",
+    "form": null,
+    "note": null,
+    "sprite": "0977",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 978,
+    "slug": "tatsugiri",
+    "name": "Tatsugiri",
+    "form": null,
+    "note": null,
+    "sprite": "0978",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 979,
+    "slug": "annihilape",
+    "name": "Annihilape",
+    "form": null,
+    "note": null,
+    "sprite": "0979",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-lgpe": "ELG",
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 980,
+    "slug": "clodsire",
+    "name": "Clodsire",
+    "form": null,
+    "note": null,
+    "sprite": "0980",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 981,
+    "slug": "farigiraf",
+    "name": "Farigiraf",
+    "form": null,
+    "note": null,
+    "sprite": "0981",
+    "methods": {
+      "pkm-sv": "SV",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-oras-dexnav": "EDN",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 982,
+    "slug": "dudunsparce",
+    "name": "Dudunsparce",
+    "form": null,
+    "note": null,
+    "sprite": "0982",
+    "methods": {
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-ss": "ESS",
+      "pkm-bdsp-radar": "EDPR",
+      "pkm-xy-safari": "EFS",
+      "pkm-xy-radar": "EPR"
+    }
+  },
+  {
+    "dexNumber": 983,
+    "slug": "kingambit",
+    "name": "Kingambit",
+    "form": null,
+    "note": null,
+    "sprite": "0983",
+    "methods": {
+      "pkm-sv": "SV",
+      "pkm-smusum-sos": "ESOS",
+      "pkm-ss": "ESS",
+      "pkm-xy-safari": "EFS"
+    }
+  },
+  {
+    "dexNumber": 984,
+    "slug": "great-tusk",
+    "name": "Great Tusk",
+    "form": null,
+    "note": null,
+    "sprite": "0984",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 985,
+    "slug": "scream-tail",
+    "name": "Scream Tail",
+    "form": null,
+    "note": null,
+    "sprite": "0985",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 986,
+    "slug": "brute-bonnet",
+    "name": "Brute Bonnet",
+    "form": null,
+    "note": null,
+    "sprite": "0986",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 987,
+    "slug": "flutter-mane",
+    "name": "Flutter Mane",
+    "form": null,
+    "note": null,
+    "sprite": "0987",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 988,
+    "slug": "slither-wing",
+    "name": "Slither Wing",
+    "form": null,
+    "note": null,
+    "sprite": "0988",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 989,
+    "slug": "sandy-shocks",
+    "name": "Sandy Shocks",
+    "form": null,
+    "note": null,
+    "sprite": "0989",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 990,
+    "slug": "iron-treads",
+    "name": "Iron Treads",
+    "form": null,
+    "note": null,
+    "sprite": "0990",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 991,
+    "slug": "iron-bundle",
+    "name": "Iron Bundle",
+    "form": null,
+    "note": null,
+    "sprite": "0991",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 992,
+    "slug": "iron-hands",
+    "name": "Iron Hands",
+    "form": null,
+    "note": null,
+    "sprite": "0992",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 993,
+    "slug": "iron-jugulis",
+    "name": "Iron Jugulis",
+    "form": null,
+    "note": null,
+    "sprite": "0993",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 994,
+    "slug": "iron-moth",
+    "name": "Iron Moth",
+    "form": null,
+    "note": null,
+    "sprite": "0994",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 995,
+    "slug": "iron-thorns",
+    "name": "Iron Thorns",
+    "form": null,
+    "note": null,
+    "sprite": "0995",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 996,
+    "slug": "frigibax",
+    "name": "Frigibax",
+    "form": null,
+    "note": null,
+    "sprite": "0996",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 997,
+    "slug": "arctibax",
+    "name": "Arctibax",
+    "form": null,
+    "note": null,
+    "sprite": "0997",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 998,
+    "slug": "baxcalibur",
+    "name": "Baxcalibur",
+    "form": null,
+    "note": null,
+    "sprite": "0998",
+    "methods": {
+      "pkm-lza": "ZA*",
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 999,
+    "slug": "gimmighoul",
+    "name": "Gimmighoul",
+    "form": null,
+    "note": null,
+    "sprite": "0999",
+    "methods": {
+      "pkm-lza": "ZA*"
+    }
+  },
+  {
+    "dexNumber": 1000,
+    "slug": "gholdengo",
+    "name": "Gholdengo",
+    "form": null,
+    "note": null,
+    "sprite": "1000",
+    "methods": {
+      "pkm-lza": "ZA*"
+    }
+  },
+  {
+    "dexNumber": 1001,
+    "slug": "wo-chien",
+    "name": "Wo-Chien",
+    "form": null,
+    "note": null,
+    "sprite": "1001",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1002,
+    "slug": "chien-pao",
+    "name": "Chien-Pao",
+    "form": null,
+    "note": null,
+    "sprite": "1002",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1003,
+    "slug": "ting-lu",
+    "name": "Ting-Lu",
+    "form": null,
+    "note": null,
+    "sprite": "1003",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1004,
+    "slug": "chi-yu",
+    "name": "Chi-Yu",
+    "form": null,
+    "note": null,
+    "sprite": "1004",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1005,
+    "slug": "roaring-moon",
+    "name": "Roaring Moon",
+    "form": null,
+    "note": null,
+    "sprite": "1005",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 1006,
+    "slug": "iron-valiant",
+    "name": "Iron Valiant",
+    "form": null,
+    "note": null,
+    "sprite": "1006",
+    "methods": {
+      "pkm-sv": "SV"
+    }
+  },
+  {
+    "dexNumber": 1007,
+    "slug": "koraidon",
+    "name": "Koraidon",
+    "form": null,
+    "note": null,
+    "sprite": "1007",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1008,
+    "slug": "miraidon",
+    "name": "Miraidon",
+    "form": null,
+    "note": null,
+    "sprite": "1008",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1009,
+    "slug": "walking-wake",
+    "name": "Walking Wake",
+    "form": null,
+    "note": null,
+    "sprite": "1009",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1010,
+    "slug": "iron-leaves",
+    "name": "Iron Leaves",
+    "form": null,
+    "note": null,
+    "sprite": "1010",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1011,
+    "slug": "dipplin",
+    "name": "Dipplin",
+    "form": null,
+    "note": null,
+    "sprite": "1011",
+    "methods": {
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 1012,
+    "slug": "poltchageist",
+    "name": "Poltchageist",
+    "form": null,
+    "note": null,
+    "sprite": "1012",
+    "methods": {
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 1013,
+    "slug": "sinistcha",
+    "name": "Sinistcha",
+    "form": null,
+    "note": null,
+    "sprite": "1013",
+    "methods": {
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 1014,
+    "slug": "okidogi",
+    "name": "Okidogi",
+    "form": null,
+    "note": null,
+    "sprite": "1014",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1015,
+    "slug": "munkidori",
+    "name": "Munkidori",
+    "form": null,
+    "note": null,
+    "sprite": "1015",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1016,
+    "slug": "fezandipiti",
+    "name": "Fezandipiti",
+    "form": null,
+    "note": null,
+    "sprite": "1016",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1017,
+    "slug": "ogerpon",
+    "name": "Ogerpon",
+    "form": null,
+    "note": null,
+    "sprite": "1017",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1018,
+    "slug": "archaludon",
+    "name": "Archaludon",
+    "form": null,
+    "note": null,
+    "sprite": "1018",
+    "methods": {
+      "pkm-sv": "SV*",
+      "pkm-ss": "ESS"
+    }
+  },
+  {
+    "dexNumber": 1019,
+    "slug": "hydrapple",
+    "name": "Hydrapple",
+    "form": null,
+    "note": null,
+    "sprite": "1019",
+    "methods": {
+      "pkm-sv": "SV*"
+    }
+  },
+  {
+    "dexNumber": 1020,
+    "slug": "gouging-fire",
+    "name": "Gouging Fire",
+    "form": null,
+    "note": null,
+    "sprite": "1020",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1021,
+    "slug": "raging-bolt",
+    "name": "Raging Bolt",
+    "form": null,
+    "note": null,
+    "sprite": "1021",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1022,
+    "slug": "iron-boulder",
+    "name": "Iron Boulder",
+    "form": null,
+    "note": null,
+    "sprite": "1022",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1023,
+    "slug": "iron-crown",
+    "name": "Iron Crown",
+    "form": null,
+    "note": null,
+    "sprite": "1023",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1024,
+    "slug": "terapagos",
+    "name": "Terapagos",
+    "form": null,
+    "note": null,
+    "sprite": "1024",
+    "methods": {}
+  },
+  {
+    "dexNumber": 1025,
+    "slug": "pecharunt",
+    "name": "Pecharunt",
+    "form": null,
+    "note": null,
+    "sprite": "1025",
+    "methods": {}
+  }
+]
