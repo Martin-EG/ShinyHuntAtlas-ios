@@ -20,6 +20,7 @@ final class HuntStore {
     var caught: Set<Pokemon.ID> = []
     var order: [HuntMethod]
     var enabled: Set<HuntMethod> = Set(HuntMethod.allCases)
+    var hunts: [Pokemon.ID: Hunt] = [:]
 
     init() {
         do {
@@ -62,6 +63,31 @@ final class HuntStore {
     func resetSetup() {
         order = defaultOrder
         enabled = Set(defaultOrder)
+    }
+
+    // MARK: Hunts
+    func hunt(for mon: Pokemon) -> Hunt? {
+        hunts[mon.id]
+    }
+
+    func startHunt(for mon: Pokemon) {
+        guard hunts[mon.id] == nil,
+              let match = engine.best(for: mon),
+              let preset = methodInfo[match.method]?.oddsPresets.first
+        else { return }
+        hunts[mon.id] = Hunt(pokemonID: mon.id, method: match.method, odds: preset)
+    }
+
+    func addEncounters(_ delta: Int, to mon: Pokemon) {
+        guard var hunt = hunts[mon.id] else { return }
+        hunt.encounters = max(0, hunt.encounters + delta)    // never below zero
+        hunts[mon.id] = hunt                                   // write the changed copy back
+    }
+
+    func setOdds(_ odds: OddsPreset, for mon: Pokemon) {
+        guard var hunt = hunts[mon.id] else { return }
+        hunt.odds = odds
+        hunts[mon.id] = hunt
     }
 }
 

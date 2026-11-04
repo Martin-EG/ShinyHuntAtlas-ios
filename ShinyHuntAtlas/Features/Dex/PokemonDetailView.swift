@@ -17,6 +17,7 @@ struct PokemonDetailView: View {
             VStack(alignment: .leading, spacing: 16) {
                 header
                 bestHuntCard
+                huntCard
             }
             .padding(20)
         }
@@ -29,10 +30,19 @@ struct PokemonDetailView: View {
             )
         }
         .safeAreaInset(edge: .bottom) {
-            catchButton
-                .padding(.horizontal, 20)
-                .padding(.vertical, 12)
-                .background(.bar)
+            VStack(spacing: 10) {
+                if store.hunt(for: pokemon) != nil {
+                    HStack(spacing: 10) {
+                        counterButton("−1", delta: -1)
+                        counterButton("+1 encounter", delta: 1, prominent: true)
+                        counterButton("+10", delta: 10)
+                    }
+                }
+                catchButton
+            }
+            .padding(.horizontal, 20)
+            .padding(.vertical, 12)
+            .background(.bar)
         }
     }
 
@@ -86,10 +96,76 @@ struct PokemonDetailView: View {
                     .foregroundStyle(Theme.navy)
             }
         }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .padding(16)
-        .background(.white, in: .rect(cornerRadius: 18))
-        .overlay(RoundedRectangle(cornerRadius: 18).stroke(Theme.border))
+        .card()
+    }
+
+    // MARK: Hunt counter
+
+    @ViewBuilder
+    private var huntCard: some View {
+        if let hunt = store.hunt(for: pokemon) {
+            let chance = Odds.chanceByNow(encounters: hunt.encounters,
+                                          denominator: hunt.odds.denominator)
+            VStack(alignment: .leading, spacing: 8) {
+                HStack(alignment: .firstTextBaseline, spacing: 10) {
+                    Text(hunt.encounters.formatted())                  // 1284 → "1,284"
+                        .font(.system(size: 48, weight: .bold, design: .monospaced))
+                        .contentTransition(.numericText())
+                        .foregroundStyle(Theme.navy)
+                    Text("encounters\nthis hunt")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                }
+
+                Text("\(chance.formatted(.percent.precision(.fractionLength(1)))) of hunts at 1/\(hunt.odds.denominator) find a shiny by now. The next encounter is still 1 in \(hunt.odds.denominator).")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+
+                Picker("Odds", selection: oddsBinding(for: hunt)) {
+                    ForEach(presets(for: hunt), id: \.self) { preset in
+                        Text("\(preset.label) · 1/\(preset.denominator)")
+                            .tag(preset)
+                    }
+                }
+                .pickerStyle(.menu)
+                .tint(Theme.navy)
+            }
+            .card()
+        } else if store.engine.best(for: pokemon) != nil {
+            Button("Start hunting \(pokemon.name)", systemImage: "play.fill") {
+                withAnimation(.snappy) { store.startHunt(for: pokemon) }
+            }
+            .buttonStyle(.borderedProminent)
+            .tint(Theme.navy)
+        }
+    }
+
+    private func presets(for hunt: Hunt) -> [OddsPreset] {
+        store.methodInfo[hunt.method]?.oddsPresets ?? []
+    }
+
+    private func oddsBinding(for hunt: Hunt) -> Binding<OddsPreset> {
+        Binding(
+            get: { store.hunt(for: pokemon)?.odds ?? hunt.odds },   // read fresh from the store
+            set: { store.setOdds($0, for: pokemon) }                // write through the store
+        )
+    }
+
+    private func counterButton(_ title: String, delta: Int, prominent: Bool = false) -> some View {
+        Button {
+            withAnimation(.snappy) { store.addEncounters(delta, to: pokemon) }
+        } label: {
+            Text(title)
+                .font(prominent ? .title3.bold() : .headline.monospacedDigit())
+                .foregroundStyle(prominent ? Color.white : Theme.navy)
+                .frame(maxWidth: prominent ? .infinity : 64)
+                .frame(height: 64)                                 // the design's thumb-zone target
+                .background(prominent ? Theme.navy : Color.white, in: .rect(cornerRadius: 16))
+                .overlay(RoundedRectangle(cornerRadius: 16).stroke(prominent ? Theme.navy : Theme.border))
+        }
+        .buttonStyle(.plain)
+        .buttonRepeatBehavior(.enabled)       // hold the button to keep counting
+        .sensoryFeedback(.increase, trigger: store.hunt(for: pokemon)?.encounters)
     }
 
     // MARK: Catch
