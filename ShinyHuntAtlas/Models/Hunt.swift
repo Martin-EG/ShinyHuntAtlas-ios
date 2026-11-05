@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Hunt: Hashable {
+struct Hunt: Codable, Hashable {
     let pokemonID: Pokemon.ID
     let method: HuntMethod
     var odds: OddsPreset              // the whole preset, not just the number (Z-A has two 1/1024s)

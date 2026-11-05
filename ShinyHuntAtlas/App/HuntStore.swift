@@ -36,6 +36,28 @@ final class HuntStore {
         } catch {
             fatalError("Bundled data is broken: \(error)")
         }
+        
+        if let saved = UserDataFile.load() {
+            caught = saved.caught
+            order = HuntStore.reconcile(saved: saved.order, defaults: defaultOrder)
+            enabled = saved.enabled
+            hunts = saved.hunts
+        }
+    }
+    
+    func save() {
+        let snapshot = UserData(
+            caught: caught,
+            order: order,
+            enabled: enabled,
+            hunts: hunts
+        )
+        
+        do {
+            try UserDataFile.save(snapshot)
+        } catch {
+            print("⚠️ Couldn't save user data: \(error)")
+        }
     }
 
     // MARK: Derived
@@ -88,6 +110,20 @@ final class HuntStore {
         guard var hunt = hunts[mon.id] else { return }
         hunt.odds = odds
         hunts[mon.id] = hunt
+    }
+}
+
+extension HuntStore {
+    static func reconcile(saved: [HuntMethod], defaults: [HuntMethod]) -> [HuntMethod] {
+        var seen: Set<HuntMethod> = []
+        var result: [HuntMethod] = []
+        
+        for method in saved + defaults where !seen.contains(method) {
+            seen.insert(method)
+            result.append(method)
+        }
+        
+        return result
     }
 }
 
